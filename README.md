@@ -15,9 +15,6 @@
     - Output: `input_for_chemspeed.csv`
     - Setting file: `settings.txt`
 
-## 0. Initial preparation
-
-
 ## 1. Input to Chemspeed
 An AutoSuite program of Chemspeed can read CSV file as input. The file `input_for_chemspeed.csv` is an actual input to the Chemspeed system. This file has a header in 1 row and 4 experimental conditions in 4 rows. Each row includes 3 integer numbers delimited by a comma, which are the reagent number of ligands (1-15), bases (1-10), and solvents (1-10). Since the second batch, this file is automatically updated by the `decision_by_nimsos.bat` script.
 
@@ -31,19 +28,24 @@ These 8 files are transferred to `C:\robotcsv` directory by SFC system.
 An `evaluate_objective` program writes 4 objective values of experiments in `candidates.csv.`
 - Parameters of `param.txt`
     - STD_MW: molecular weight of standard
-    - SUB_MW: molecular weight of the substrates
+    - SUB_MW: molecular weight of the substrate
     - MV_LEN: wavelength for integration
     - STD_INI: starting point of integration of STD
     - STD_FIN: ending point of integration of STD
-    - P1_INI 
-    - P1_FIN 
-    - P1_SLP 
-    - ...
-    - STD_WT 
-    - SUB_WT 
-    - BL_AVE 
-    - LOW_PS 
-    - UPR_PS 
+    - P1_INI: starting point of integration of p1 (starting material, compound 1)
+    - P1_FIN: starting point of integration of p1 (starting material, compound 1)
+    - P1_SLP: slope of the calibration curve
+    - P2_INI: starting point of integration of p2 (starting material, product 3)
+    - P2_FIN: starting point of integration of p2 (starting material, product 3)
+    - P2_SLP: slope of the calibration curve
+    - P3_INI: starting point of integration of p3 (starting material, by-product 4)
+    - P3_FIN: starting point of integration of p3 (starting material, by-product 4)
+    - P3_SLP: slope of the calibration curve
+    - STD_WT: actual weight of STD
+    - SUB_WT: actual weight of the substrate
+    - BL_AVE: area of baseline correction
+    - LOW_PS: lower limit of pressure of SFC system
+    - UPR_PS: upper limit of pressure of SFC system
 
 # Used version for Actual Experiment
 `nimsos 1.0.1`
