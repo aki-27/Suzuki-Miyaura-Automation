@@ -1,0 +1,4125 @@
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1282, 1493, 897, 920]
+1, ID  1282,       Ar-CF3_K3PO4_dioxane,    yield p1   75.99 , p2    9.48 , p3   15.77 , total  101.25 , obj -2.355503
+2, ID  1493,      Ar-CF32_NEt4OH_octane,    yield p1   99.37 , p2    0.41 , p3    0.02 , total   99.79 , obj -5.495197
+3, ID   897,        Ak-tBu_NEt4OH_PhCF3,    yield p1  101.59 , p2    0.44 , p3    1.26 , total  103.29 , obj -5.434688
+4, ID   920,        Ar-Me2_NaHCO3_BuOAc,    yield p1   92.82 , p2    5.35 , p3    1.60 , total   99.76 , obj -2.928562
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 7.101897553658004
+50 -th epoch marginal likelihood 7.0967266913798355
+100 -th epoch marginal likelihood 7.095575678382394
+150 -th epoch marginal likelihood 7.095481516077799
+200 -th epoch marginal likelihood 7.095479383420843
+250 -th epoch marginal likelihood 7.095479378762482
+300 -th epoch marginal likelihood 7.095479378729346
+350 -th epoch marginal likelihood 7.0954793787293235
+400 -th epoch marginal likelihood 7.095479378729323
+450 -th epoch marginal likelihood 7.095479378729322
+500 -th epoch marginal likelihood 7.095479378729323
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1021
+proposal =  [ 1.02200000e+03  2.00000000e+00  9.00000000e+00  7.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  3.17000000e+00
+  1.69000000e+02  1.58000000e+01  3.70000000e+00  6.30000000e+00]
+###
+###
+number = 2
+actions =  1040
+proposal =  [1041.        6.       10.        7.      166.26   2224.63     -9.8472
+   13.997   322.       15.8       3.7       6.3   ]
+###
+###
+number = 3
+actions =  624
+proposal =  [ 6.25000e+02  1.00000e+01  2.00000e+00  5.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  6.35100e+00  9.50000e+01  1.90000e+01
+  7.40000e+00  4.10000e+00]
+###
+###
+number = 4
+actions =  374
+proposal =  [ 375.         15.          5.          3.        165.353392 2215.967354
+  -19.1672     13.997     133.         15.3        18.          6.1     ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1022, 1041, 625, 375]
+next exp ID  1022,           Ar-OMe_CsF_BuOAc
+next exp ID  1041,          Ar-F_NEt4OH_BuOAc
+next exp ID   625,       Ar-Cl_NaHCO3_C2H4Cl2
+next exp ID   375,             Ak-Et_KOH_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1022, 1041, 625, 375]
+1, ID  1022,           Ar-OMe_CsF_BuOAc,    yield p1   91.16 , p2    7.69 , p3    1.44 , total  100.29 , obj -2.565554
+2, ID  1041,          Ar-F_NEt4OH_BuOAc,    yield p1   90.81 , p2    8.49 , p3    1.12 , total  100.42 , obj -2.466479
+3, ID   625,       Ar-Cl_NaHCO3_C2H4Cl2,    yield p1   96.41 , p2    5.86 , p3    0.49 , total  102.76 , obj -2.836283
+4, ID   375,             Ak-Et_KOH_MeCN,    yield p1   91.31 , p2    1.63 , p3    1.82 , total   94.76 , obj -4.115194
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 13.872215579714787
+50 -th epoch marginal likelihood 13.72654248626512
+100 -th epoch marginal likelihood 13.618350427721587
+150 -th epoch marginal likelihood 13.518975524373499
+200 -th epoch marginal likelihood 13.429717757358521
+250 -th epoch marginal likelihood 13.351150302031348
+300 -th epoch marginal likelihood 13.283256142775292
+350 -th epoch marginal likelihood 13.225637039173176
+400 -th epoch marginal likelihood 13.177618170175249
+450 -th epoch marginal likelihood 13.138328025644192
+500 -th epoch marginal likelihood 13.10677158707042
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1490
+proposal =  [1491.        6.       10.       10.      166.26   2224.63     -9.8472
+   13.997   322.       15.5       0.        0.    ]
+###
+###
+number = 2
+actions =  242
+proposal =  [ 2.43000000e+02  3.00000000e+00  7.00000000e+00  2.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  4.75600000e+00
+  1.33000000e+02  1.74000000e+01  1.37000000e+01  1.13000000e+01]
+###
+###
+number = 3
+actions =  49
+proposal =  [ 5.00000000e+01  5.00000000e+00  4.00000000e+00  1.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  1.03290000e+01
+  1.33000000e+02  1.84000000e+01  1.64000000e+01  1.02000000e+01]
+###
+###
+number = 4
+actions =  430
+proposal =  [ 431.          11.           9.           3.         174.3600174
+ 2210.257593     8.0093       3.17       169.          15.3
+   18.           6.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1491, 243, 50, 431]
+next exp ID  1491,         Ar-F_NEt4OH_octane
+next exp ID   243,         Ar-Me2OMe_KOAc_DMF
+next exp ID    50,          Ar-Me2_K2CO3_DMSO
+next exp ID   431,             Ak-Cy_CsF_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1491, 243, 50, 431]
+1, ID  1491,         Ar-F_NEt4OH_octane,    yield p1   97.76 , p2    2.17 , p3    0.01 , total   99.94 , obj -3.828561
+2, ID   243,         Ar-Me2OMe_KOAc_DMF,    yield p1   85.06 , p2    5.86 , p3    9.51 , total  100.43 , obj -2.837645
+3, ID    50,          Ar-Me2_K2CO3_DMSO,    yield p1  100.70 , p2    7.87 , p3    9.33 , total  117.90 , obj -2.541997
+4, ID   431,             Ak-Cy_CsF_MeCN,    yield p1   96.60 , p2    1.74 , p3    0.79 , total   99.14 , obj -4.048592
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 18.88484963197244
+50 -th epoch marginal likelihood 18.659057689569376
+100 -th epoch marginal likelihood 18.506631076504114
+150 -th epoch marginal likelihood 18.364229023975057
+200 -th epoch marginal likelihood 18.23434006967826
+250 -th epoch marginal likelihood 18.1218459834221
+300 -th epoch marginal likelihood 18.028500913917433
+350 -th epoch marginal likelihood 17.953650724272286
+400 -th epoch marginal likelihood 17.895264533958247
+450 -th epoch marginal likelihood 17.8507064043056
+500 -th epoch marginal likelihood 17.817217998007894
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  386
+proposal =  [ 387.       12.        6.        3.      185.3    2206.2      66.1445
+   12.375   133.       15.3      18.        6.1   ]
+###
+###
+number = 2
+actions =  1079
+proposal =  [ 1.08000000e+03  1.50000000e+01  2.00000000e+00  8.00000000e+00
+  1.65353392e+02  2.21596735e+03 -1.91672000e+01  6.35100000e+00
+  9.50000000e+01  1.80000000e+01  1.40000000e+00  2.00000000e+00]
+###
+###
+number = 3
+actions =  1035
+proposal =  [ 1.03600e+03  1.00000e+00  1.00000e+01  7.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  3.22000e+02  1.58000e+01
+  3.70000e+00  6.30000e+00]
+###
+###
+number = 4
+actions =  1284
+proposal =  [ 1.28500e+03  1.00000e+01  6.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.23750e+01  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [387, 1080, 1036, 1285]
+next exp ID   387,          Ak-tBu_K3PO4_MeCN
+next exp ID  1080,       Ak-Et_NaHCO3_toluene
+next exp ID  1036,          Ar-H_NEt4OH_BuOAc
+next exp ID  1285,        Ar-Cl_K3PO4_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [387, 1080, 1036, 1285]
+1, ID   387,          Ak-tBu_K3PO4_MeCN,    yield p1   78.50 , p2    1.94 , p3   21.24 , total  101.68 , obj -3.942444
+2, ID  1080,       Ak-Et_NaHCO3_toluene,    yield p1   98.25 , p2    0.41 , p3    0.09 , total   98.76 , obj -5.485041
+3, ID  1036,          Ar-H_NEt4OH_BuOAc,    yield p1   93.56 , p2    6.22 , p3    0.82 , total  100.60 , obj -2.777986
+4, ID  1285,        Ar-Cl_K3PO4_dioxane,    yield p1   81.97 , p2   17.41 , p3    2.76 , total  102.15 , obj -1.747926
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 27.20398254890265
+50 -th epoch marginal likelihood 26.366212651821655
+100 -th epoch marginal likelihood 25.88329487748753
+150 -th epoch marginal likelihood 25.58004726958
+200 -th epoch marginal likelihood 25.350421973697323
+250 -th epoch marginal likelihood 25.1461141156609
+300 -th epoch marginal likelihood 24.950826910215877
+350 -th epoch marginal likelihood 24.762873725276023
+400 -th epoch marginal likelihood 24.585699353187735
+450 -th epoch marginal likelihood 24.423696020207096
+500 -th epoch marginal likelihood 24.2805247748182
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1249
+proposal =  [ 1.25000000e+03  5.00000000e+00  4.00000000e+00  9.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  1.03290000e+01
+  1.33000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 2
+actions =  1314
+proposal =  [ 1.31500e+03  1.00000e+01  8.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.03290e+01  1.69000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  1269
+proposal =  [ 1.27000e+03  1.00000e+01  5.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.39970e+01  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 4
+actions =  1239
+proposal =  [ 1.24000e+03  1.00000e+01  3.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.39970e+01  9.50000e+01  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1250, 1315, 1270, 1240]
+next exp ID  1250,       Ar-Me2_K2CO3_dioxane
+next exp ID  1315,       Ar-Cl_Cs2CO3_dioxane
+next exp ID  1270,          Ar-Cl_KOH_dioxane
+next exp ID  1240,         Ar-Cl_NaOH_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1250, 1315, 1270, 1240]
+1, ID  1250,       Ar-Me2_K2CO3_dioxane,    yield p1   75.10 , p2   17.11 , p3   10.70 , total  102.91 , obj -1.765501
+2, ID  1315,       Ar-Cl_Cs2CO3_dioxane,    yield p1   77.13 , p2   22.09 , p3    4.21 , total  103.42 , obj -1.510012
+3, ID  1270,          Ar-Cl_KOH_dioxane,    yield p1   90.20 , p2   12.30 , p3    1.37 , total  103.86 , obj -2.095823
+4, ID  1240,         Ar-Cl_NaOH_dioxane,    yield p1   82.74 , p2   16.50 , p3    2.75 , total  101.99 , obj -1.802059
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 29.507485673645075
+50 -th epoch marginal likelihood 29.291036069520544
+100 -th epoch marginal likelihood 29.086677402881513
+150 -th epoch marginal likelihood 28.896335715554734
+200 -th epoch marginal likelihood 28.722510648931664
+250 -th epoch marginal likelihood 28.56663150638902
+300 -th epoch marginal likelihood 28.429183807029418
+350 -th epoch marginal likelihood 28.30985990972706
+400 -th epoch marginal likelihood 28.207738750843404
+450 -th epoch marginal likelihood 28.12147210520854
+500 -th epoch marginal likelihood 28.049457246555846
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  565
+proposal =  [ 566.          11.           8.           4.         174.3600174
+ 2210.257593     8.0093      10.329      169.          16.
+    6.8         17.4      ]
+###
+###
+number = 2
+actions =  1234
+proposal =  [ 1.23500000e+03  5.00000000e+00  3.00000000e+00  9.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 3
+actions =  1254
+proposal =  [ 1.25500e+03  1.00000e+01  4.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.03290e+01  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 4
+actions =  1250
+proposal =  [ 1.25100e+03  6.00000e+00  4.00000e+00  9.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  1.03290e+01  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [566, 1235, 1255, 1251]
+next exp ID   566,         Ak-Cy_Cs2CO3_nPrOH
+next exp ID  1235,        Ar-Me2_NaOH_dioxane
+next exp ID  1255,        Ar-Cl_K2CO3_dioxane
+next exp ID  1251,         Ar-F_K2CO3_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [566, 1235, 1255, 1251]
+1, ID   566,         Ak-Cy_Cs2CO3_nPrOH,    yield p1   70.99 , p2    9.18 , p3   23.22 , total  103.39 , obj -2.388344
+2, ID  1235,        Ar-Me2_NaOH_dioxane,    yield p1   64.46 , p2   25.66 , p3   13.12 , total  103.23 , obj -1.360430
+3, ID  1255,        Ar-Cl_K2CO3_dioxane,    yield p1   82.56 , p2   18.86 , p3    2.82 , total  104.24 , obj -1.668164
+4, ID  1251,         Ar-F_K2CO3_dioxane,    yield p1   78.72 , p2   20.07 , p3    3.80 , total  102.59 , obj -1.605844
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 33.517185734438456
+50 -th epoch marginal likelihood 33.16443386607715
+100 -th epoch marginal likelihood 32.90941196230201
+150 -th epoch marginal likelihood 32.70141741865525
+200 -th epoch marginal likelihood 32.504977156110286
+250 -th epoch marginal likelihood 32.30968831576118
+300 -th epoch marginal likelihood 32.11757941547596
+350 -th epoch marginal likelihood 31.933110948627558
+400 -th epoch marginal likelihood 31.760117261016028
+450 -th epoch marginal likelihood 31.601287197868174
+500 -th epoch marginal likelihood 31.458176881502492
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1356
+proposal =  [ 1.35700000e+03  7.00000000e+00  1.00000000e+00  1.00000000e+01
+  1.65455023e+02  2.22828475e+03 -7.66580000e+00  1.03290000e+01
+  9.50000000e+01  1.55000000e+01  0.00000000e+00  0.00000000e+00]
+###
+###
+number = 2
+actions =  1205
+proposal =  [ 1.20600e+03  6.00000e+00  1.00000e+00  9.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  1.03290e+01  9.50000e+01  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  1204
+proposal =  [ 1.20500000e+03  5.00000000e+00  1.00000000e+00  9.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  1.03290000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 4
+actions =  1202
+proposal =  [ 1.20300000e+03  3.00000000e+00  1.00000000e+00  9.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  1.03290000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1357, 1206, 1205, 1203]
+next exp ID  1357,       Ar-CF3_Na2CO3_octane
+next exp ID  1206,        Ar-F_Na2CO3_dioxane
+next exp ID  1205,      Ar-Me2_Na2CO3_dioxane
+next exp ID  1203,   Ar-Me2OMe_Na2CO3_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1357, 1206, 1205, 1203]
+1, ID  1357,       Ar-CF3_Na2CO3_octane,    yield p1  102.09 , p2    1.55 , p3    0.22 , total  103.85 , obj -4.168749
+2, ID  1206,        Ar-F_Na2CO3_dioxane,    yield p1   75.51 , p2   20.32 , p3    3.68 , total   99.51 , obj -1.593636
+3, ID  1205,      Ar-Me2_Na2CO3_dioxane,    yield p1   80.07 , p2   13.80 , p3    6.25 , total  100.12 , obj -1.980721
+4, ID  1203,   Ar-Me2OMe_Na2CO3_dioxane,    yield p1   79.59 , p2   12.92 , p3    7.25 , total   99.76 , obj -2.046501
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 37.416658702730516
+50 -th epoch marginal likelihood 36.67961055486427
+100 -th epoch marginal likelihood 36.066109054765306
+150 -th epoch marginal likelihood 35.57226099804865
+200 -th epoch marginal likelihood 35.179825248614996
+250 -th epoch marginal likelihood 34.86581878690701
+300 -th epoch marginal likelihood 34.60745575713786
+350 -th epoch marginal likelihood 34.38555096641542
+400 -th epoch marginal likelihood 34.18613416806885
+450 -th epoch marginal likelihood 34.00052738844097
+500 -th epoch marginal likelihood 33.824429017112465
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1155
+proposal =  [ 1.15600e+03  1.00000e+00  8.00000e+00  8.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.80000e+01
+  1.40000e+00  2.00000e+00]
+###
+###
+number = 2
+actions =  1299
+proposal =  [ 1.30000e+03  1.00000e+01  7.00000e+00  9.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  4.75600e+00  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  1232
+proposal =  [ 1.23300000e+03  3.00000000e+00  3.00000000e+00  9.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 4
+actions =  1235
+proposal =  [ 1.23600e+03  6.00000e+00  3.00000e+00  9.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  1.39970e+01  9.50000e+01  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1156, 1300, 1233, 1236]
+next exp ID  1156,        Ar-H_Cs2CO3_toluene
+next exp ID  1300,         Ar-Cl_KOAc_dioxane
+next exp ID  1233,     Ar-Me2OMe_NaOH_dioxane
+next exp ID  1236,          Ar-F_NaOH_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1156, 1300, 1233, 1236]
+1, ID  1156,        Ar-H_Cs2CO3_toluene,    yield p1   91.14 , p2    7.56 , p3    0.42 , total   99.13 , obj -2.581924
+2, ID  1300,         Ar-Cl_KOAc_dioxane,    yield p1   85.33 , p2   13.74 , p3    1.14 , total  100.21 , obj -1.984853
+3, ID  1233,     Ar-Me2OMe_NaOH_dioxane,    yield p1   66.38 , p2   21.98 , p3   14.23 , total  102.58 , obj -1.515088
+4, ID  1236,          Ar-F_NaOH_dioxane,    yield p1   76.85 , p2   21.58 , p3    3.21 , total  101.65 , obj -1.533267
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 38.36511802503619
+50 -th epoch marginal likelihood 37.588176160118024
+100 -th epoch marginal likelihood 36.97997403685515
+150 -th epoch marginal likelihood 36.514674241945585
+200 -th epoch marginal likelihood 36.15248534352391
+250 -th epoch marginal likelihood 35.85559104001405
+300 -th epoch marginal likelihood 35.594323191695324
+350 -th epoch marginal likelihood 35.34945383385002
+400 -th epoch marginal likelihood 35.11116675156406
+450 -th epoch marginal likelihood 34.876291057145714
+500 -th epoch marginal likelihood 34.6454339433448
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  560
+proposal =  [ 561.        6.        8.        4.      166.26   2224.63     -9.8472
+   10.329   169.       16.        6.8      17.4   ]
+###
+###
+number = 2
+actions =  1231
+proposal =  [ 1.23200000e+03  2.00000000e+00  3.00000000e+00  9.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 3
+actions =  1317
+proposal =  [ 1.31800000e+03  1.30000000e+01  8.00000000e+00  9.00000000e+00
+  1.71395358e+02  2.21398004e+03 -2.92681000e+01  1.03290000e+01
+  1.69000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 4
+actions =  1264
+proposal =  [ 1.26500000e+03  5.00000000e+00  5.00000000e+00  9.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  1.39970000e+01
+  1.33000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [561, 1232, 1318, 1265]
+next exp ID   561,          Ar-F_Cs2CO3_nPrOH
+next exp ID  1232,        Ar-OMe_NaOH_dioxane
+next exp ID  1318,      Ak-nBu_Cs2CO3_dioxane
+next exp ID  1265,         Ar-Me2_KOH_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [561, 1232, 1318, 1265]
+1, ID   561,          Ar-F_Cs2CO3_nPrOH,    yield p1   34.22 , p2   46.31 , p3   17.42 , total   97.95 , obj -0.769774
+2, ID  1232,        Ar-OMe_NaOH_dioxane,    yield p1   57.90 , p2   29.49 , p3   13.19 , total  100.59 , obj -1.221064
+3, ID  1318,      Ak-nBu_Cs2CO3_dioxane,    yield p1   96.42 , p2    2.40 , p3    0.14 , total   98.96 , obj -3.730347
+4, ID  1265,         Ar-Me2_KOH_dioxane,    yield p1   70.01 , p2   20.09 , p3   12.53 , total  102.63 , obj -1.604853
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 44.51209493766792
+50 -th epoch marginal likelihood 43.78767043084855
+100 -th epoch marginal likelihood 43.27188422250117
+150 -th epoch marginal likelihood 42.89616528795174
+200 -th epoch marginal likelihood 42.602548687450856
+250 -th epoch marginal likelihood 42.35119771141011
+300 -th epoch marginal likelihood 42.12081400133847
+350 -th epoch marginal likelihood 41.90113576824112
+400 -th epoch marginal likelihood 41.68755854073861
+450 -th epoch marginal likelihood 41.47873298477678
+500 -th epoch marginal likelihood 41.27532127920167
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  277
+proposal =  [ 2.78000000e+02  8.00000000e+00  9.00000000e+00  2.00000000e+00
+  1.84594242e+02  2.23494290e+03 -1.00173000e+01  3.17000000e+00
+  1.69000000e+02  1.74000000e+01  1.37000000e+01  1.13000000e+01]
+###
+###
+number = 2
+actions =  561
+proposal =  [ 562.           7.           8.           4.         165.4550225
+ 2228.284751    -7.6658      10.329      169.          16.
+    6.8         17.4      ]
+###
+###
+number = 3
+actions =  564
+proposal =  [ 565.       10.        8.        4.      165.5    2225.59    -10.3996
+   10.329   169.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  530
+proposal =  [ 531.        6.        6.        4.      166.26   2224.63     -9.8472
+   12.375   133.       16.        6.8      17.4   ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [278, 562, 565, 531]
+next exp ID   278,            Ar-CF32_CsF_DMF
+next exp ID   562,        Ar-CF3_Cs2CO3_nPrOH
+next exp ID   565,         Ar-Cl_Cs2CO3_nPrOH
+next exp ID   531,           Ar-F_K3PO4_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [278, 562, 565, 531]
+1, ID   278,            Ar-CF32_CsF_DMF,    yield p1   87.76 , p2    4.24 , p3    7.87 , total   99.87 , obj -3.161313
+2, ID   562,        Ar-CF3_Cs2CO3_nPrOH,    yield p1   42.60 , p2   29.25 , p3   23.29 , total   95.14 , obj -1.229232
+3, ID   565,         Ar-Cl_Cs2CO3_nPrOH,    yield p1   42.97 , p2   29.46 , p3   17.57 , total   90.00 , obj -1.222263
+4, ID   531,           Ar-F_K3PO4_nPrOH,    yield p1   15.50 , p2   22.04 , p3   18.28 , total   55.82 , obj -1.512242
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 49.09352671386174
+50 -th epoch marginal likelihood 48.153929606373595
+100 -th epoch marginal likelihood 47.447158693388516
+150 -th epoch marginal likelihood 46.90925279021435
+200 -th epoch marginal likelihood 46.48470986041188
+250 -th epoch marginal likelihood 46.13189232004359
+300 -th epoch marginal likelihood 45.82393928730202
+350 -th epoch marginal likelihood 45.54314925168845
+400 -th epoch marginal likelihood 45.27755562560368
+450 -th epoch marginal likelihood 45.01925084366279
+500 -th epoch marginal likelihood 44.76351077705226
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  293
+proposal =  [ 2.94000e+02  9.00000e+00  1.00000e+01  2.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.39970e+01  3.22000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 2
+actions =  559
+proposal =  [ 560.           5.           8.           4.         174.6629756
+ 2218.794147    -5.7884      10.329      169.          16.
+    6.8         17.4      ]
+###
+###
+number = 3
+actions =  556
+proposal =  [ 5.57000000e+02  2.00000000e+00  8.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.03290000e+01
+  1.69000000e+02  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  557
+proposal =  [ 558.           3.           8.           4.         172.5642436
+ 2217.825997    -8.6556      10.329      169.          16.
+    6.8         17.4      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [294, 560, 557, 558]
+next exp ID   294,           Ar-F5_NEt4OH_DMF
+next exp ID   560,        Ar-Me2_Cs2CO3_nPrOH
+next exp ID   557,        Ar-OMe_Cs2CO3_nPrOH
+next exp ID   558,     Ar-Me2OMe_Cs2CO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [294, 560, 557, 558]
+1, ID   294,           Ar-F5_NEt4OH_DMF,    yield p1   68.64 , p2    9.55 , p3    3.07 , total   81.26 , obj -2.349126
+2, ID   560,        Ar-Me2_Cs2CO3_nPrOH,    yield p1   13.29 , p2   18.91 , p3   22.75 , total   54.95 , obj -1.665461
+3, ID   557,        Ar-OMe_Cs2CO3_nPrOH,    yield p1   37.88 , p2   19.63 , p3   18.75 , total   76.25 , obj -1.628277
+4, ID   558,     Ar-Me2OMe_Cs2CO3_nPrOH,    yield p1   26.52 , p2   19.03 , p3   25.59 , total   71.15 , obj -1.659186
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 53.09996962205931
+50 -th epoch marginal likelihood 51.956362719891246
+100 -th epoch marginal likelihood 51.13791088888374
+150 -th epoch marginal likelihood 50.511134472003384
+200 -th epoch marginal likelihood 50.005632924862
+250 -th epoch marginal likelihood 49.582652716140814
+300 -th epoch marginal likelihood 49.217435808852784
+350 -th epoch marginal likelihood 48.89376211595537
+400 -th epoch marginal likelihood 48.600892391000734
+450 -th epoch marginal likelihood 48.33155417257065
+500 -th epoch marginal likelihood 48.08063540342128
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  138
+proposal =  [ 1.39000000e+02  4.00000000e+00  1.00000000e+01  1.00000000e+00
+  2.11348543e+02  2.21078491e+03 -3.57969000e+01  1.39970000e+01
+  3.22000000e+02  1.84000000e+01  1.64000000e+01  1.02000000e+01]
+###
+###
+number = 2
+actions =  594
+proposal =  [ 595.       10.       10.        4.      165.5    2225.59    -10.3996
+   13.997   322.       16.        6.8      17.4   ]
+###
+###
+number = 3
+actions =  591
+proposal =  [ 592.           7.          10.           4.         165.4550225
+ 2228.284751    -7.6658      13.997      322.          16.
+    6.8         17.4      ]
+###
+###
+number = 4
+actions =  590
+proposal =  [ 591.        6.       10.        4.      166.26   2224.63     -9.8472
+   13.997   322.       16.        6.8      17.4   ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [139, 595, 592, 591]
+next exp ID   139,         Ar-Me3_NEt4OH_DMSO
+next exp ID   595,         Ar-Cl_NEt4OH_nPrOH
+next exp ID   592,        Ar-CF3_NEt4OH_nPrOH
+next exp ID   591,          Ar-F_NEt4OH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [139, 595, 592, 591]
+1, ID   139,         Ar-Me3_NEt4OH_DMSO,    yield p1  106.60 , p2    2.03 , p3    0.36 , total  108.98 , obj -3.898661
+2, ID   595,         Ar-Cl_NEt4OH_nPrOH,    yield p1   54.88 , p2   25.73 , p3   13.12 , total   93.73 , obj -1.357485
+3, ID   592,        Ar-CF3_NEt4OH_nPrOH,    yield p1   39.64 , p2   15.20 , p3   20.23 , total   75.07 , obj -1.883912
+4, ID   591,          Ar-F_NEt4OH_nPrOH,    yield p1   24.84 , p2   26.72 , p3   16.47 , total   68.02 , obj -1.319928
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 58.02541415556753
+50 -th epoch marginal likelihood 56.73313675674203
+100 -th epoch marginal likelihood 55.8224642562009
+150 -th epoch marginal likelihood 55.153364433749765
+200 -th epoch marginal likelihood 54.62689811948677
+250 -th epoch marginal likelihood 54.183982017819226
+300 -th epoch marginal likelihood 53.78967638835819
+350 -th epoch marginal likelihood 53.42313239897135
+400 -th epoch marginal likelihood 53.07102991557282
+450 -th epoch marginal likelihood 52.72287409886986
+500 -th epoch marginal likelihood 52.3669522663685
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1043
+proposal =  [1044.        9.       10.        7.      172.55   2232.06    -76.7384
+   13.997   322.       15.8       3.7       6.3   ]
+###
+###
+number = 2
+actions =  298
+proposal =  [ 2.99000e+02  1.40000e+01  1.00000e+01  2.00000e+00  1.20020e+02
+  2.21932e+03 -6.33000e+01  1.39970e+01  3.22000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 3
+actions =  546
+proposal =  [ 547.           7.           7.           4.         165.4550225
+ 2228.284751    -7.6658       4.756      133.          16.
+    6.8         17.4      ]
+###
+###
+number = 4
+actions =  598
+proposal =  [ 599.      14.      10.       4.     120.02  2219.32   -63.3     13.997
+  322.      16.       6.8     17.4  ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1044, 299, 547, 599]
+next exp ID  1044,         Ar-F5_NEt4OH_BuOAc
+next exp ID   299,           Ak-Me_NEt4OH_DMF
+next exp ID   547,          Ar-CF3_KOAc_nPrOH
+next exp ID   599,         Ak-Me_NEt4OH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1044, 299, 547, 599]
+1, ID  1044,         Ar-F5_NEt4OH_BuOAc,    yield p1   89.38 , p2   10.57 , p3    1.50 , total  101.46 , obj -2.246758
+2, ID   299,           Ak-Me_NEt4OH_DMF,    yield p1   80.55 , p2    1.78 , p3    0.77 , total   83.09 , obj -4.027629
+3, ID   547,          Ar-CF3_KOAc_nPrOH,    yield p1   74.33 , p2   15.13 , p3    3.03 , total   92.49 , obj -1.888531
+4, ID   599,         Ak-Me_NEt4OH_nPrOH,    yield p1   86.38 , p2    3.22 , p3    4.42 , total   94.02 , obj -3.434479
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 62.97967852496552
+50 -th epoch marginal likelihood 61.728553815504775
+100 -th epoch marginal likelihood 60.85519175778097
+150 -th epoch marginal likelihood 60.20847959668069
+200 -th epoch marginal likelihood 59.684203278695705
+250 -th epoch marginal likelihood 59.22394935412868
+300 -th epoch marginal likelihood 58.79750261622637
+350 -th epoch marginal likelihood 58.39078523751259
+400 -th epoch marginal likelihood 57.99818692059494
+450 -th epoch marginal likelihood 57.618101741451696
+500 -th epoch marginal likelihood 57.25058016195308
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1313
+proposal =  [ 1.31400e+03  9.00000e+00  8.00000e+00  9.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.03290e+01  1.69000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 2
+actions =  563
+proposal =  [ 564.        9.        8.        4.      172.55   2232.06    -76.7384
+   10.329   169.       16.        6.8      17.4   ]
+###
+###
+number = 3
+actions =  593
+proposal =  [ 594.        9.       10.        4.      172.55   2232.06    -76.7384
+   13.997   322.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  589
+proposal =  [ 590.           5.          10.           4.         174.6629756
+ 2218.794147    -5.7884      13.997      322.          16.
+    6.8         17.4      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1314, 564, 594, 590]
+next exp ID  1314,       Ar-F5_Cs2CO3_dioxane
+next exp ID   564,         Ar-F5_Cs2CO3_nPrOH
+next exp ID   594,         Ar-F5_NEt4OH_nPrOH
+next exp ID   590,        Ar-Me2_NEt4OH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1314, 564, 594, 590]
+1, ID  1314,       Ar-F5_Cs2CO3_dioxane,    yield p1   79.44 , p2   19.15 , p3    2.61 , total  101.19 , obj -1.653127
+2, ID   564,         Ar-F5_Cs2CO3_nPrOH,    yield p1   39.06 , p2   37.39 , p3   19.03 , total   95.48 , obj -0.983764
+3, ID   594,         Ar-F5_NEt4OH_nPrOH,    yield p1   63.03 , p2   24.80 , p3    7.12 , total   94.96 , obj -1.394284
+4, ID   590,        Ar-Me2_NEt4OH_nPrOH,    yield p1   25.08 , p2   21.79 , p3   18.48 , total   65.35 , obj -1.523575
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 67.85116508515414
+50 -th epoch marginal likelihood 66.40670770590677
+100 -th epoch marginal likelihood 65.37005108030755
+150 -th epoch marginal likelihood 64.58746529501818
+200 -th epoch marginal likelihood 63.94897388628401
+250 -th epoch marginal likelihood 63.38922866819027
+300 -th epoch marginal likelihood 62.87054198081535
+350 -th epoch marginal likelihood 62.371184492337704
+400 -th epoch marginal likelihood 61.87740094204851
+450 -th epoch marginal likelihood 61.37803550907361
+500 -th epoch marginal likelihood 60.861840817618805
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  626
+proposal =  [6.27000e+02 1.20000e+01 2.00000e+00 5.00000e+00 1.85300e+02 2.20620e+03
+ 6.61445e+01 6.35100e+00 9.50000e+01 1.90000e+01 7.40000e+00 4.10000e+00]
+###
+###
+number = 2
+actions =  533
+proposal =  [ 534.        9.        6.        4.      172.55   2232.06    -76.7384
+   12.375   133.       16.        6.8      17.4   ]
+###
+###
+number = 3
+actions =  518
+proposal =  [ 519.        9.        5.        4.      172.55   2232.06    -76.7384
+   13.997   133.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  531
+proposal =  [ 532.           7.           6.           4.         165.4550225
+ 2228.284751    -7.6658      12.375      133.          16.
+    6.8         17.4      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [627, 534, 519, 532]
+next exp ID   627,      Ak-tBu_NaHCO3_C2H4Cl2
+next exp ID   534,          Ar-F5_K3PO4_nPrOH
+next exp ID   519,            Ar-F5_KOH_nPrOH
+next exp ID   532,         Ar-CF3_K3PO4_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [627, 534, 519, 532]
+1, ID   627,      Ak-tBu_NaHCO3_C2H4Cl2,    yield p1   87.48 , p2    0.48 , p3   13.06 , total  101.02 , obj -5.328950
+2, ID   534,          Ar-F5_K3PO4_nPrOH,    yield p1   44.46 , p2   29.82 , p3   16.51 , total   90.80 , obj -1.209939
+3, ID   519,            Ar-F5_KOH_nPrOH,    yield p1   56.37 , p2   30.74 , p3   11.83 , total   98.94 , obj -1.179571
+4, ID   532,         Ar-CF3_K3PO4_nPrOH,    yield p1   74.06 , p2   19.93 , p3   21.70 , total  115.70 , obj -1.612793
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 70.8136015885492
+50 -th epoch marginal likelihood 69.2182454821989
+100 -th epoch marginal likelihood 68.05448923069375
+150 -th epoch marginal likelihood 67.1706325955737
+200 -th epoch marginal likelihood 66.45392283674256
+250 -th epoch marginal likelihood 65.83307870070837
+300 -th epoch marginal likelihood 65.26274083456788
+350 -th epoch marginal likelihood 64.71352989996342
+400 -th epoch marginal likelihood 64.16689189606578
+450 -th epoch marginal likelihood 63.614704118365076
+500 -th epoch marginal likelihood 63.06262713169302
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  338
+proposal =  [ 339.        9.        3.        3.      172.55   2232.06    -76.7384
+   13.997    95.       15.3      18.        6.1   ]
+###
+###
+number = 2
+actions =  555
+proposal =  [ 5.56000e+02  1.00000e+00  8.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 3
+actions =  503
+proposal =  [ 504.        9.        4.        4.      172.55   2232.06    -76.7384
+   10.329   133.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  1261
+proposal =  [ 1.26200000e+03  2.00000000e+00  5.00000000e+00  9.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  1.33000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [339, 556, 504, 1262]
+next exp ID   339,            Ar-F5_NaOH_MeCN
+next exp ID   556,          Ar-H_Cs2CO3_nPrOH
+next exp ID   504,          Ar-F5_K2CO3_nPrOH
+next exp ID  1262,         Ar-OMe_KOH_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [339, 556, 504, 1262]
+1, ID   339,            Ar-F5_NaOH_MeCN,    yield p1   53.94 , p2   33.21 , p3   22.09 , total  109.23 , obj -1.102349
+2, ID   556,          Ar-H_Cs2CO3_nPrOH,    yield p1   32.02 , p2   35.50 , p3   19.66 , total   87.18 , obj -1.035635
+3, ID   504,          Ar-F5_K2CO3_nPrOH,    yield p1   63.80 , p2   27.47 , p3    9.18 , total  100.45 , obj -1.292139
+4, ID  1262,         Ar-OMe_KOH_dioxane,    yield p1   77.19 , p2   18.05 , p3    6.95 , total  102.18 , obj -1.712212
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 74.61716365042588
+50 -th epoch marginal likelihood 72.92486140155586
+100 -th epoch marginal likelihood 71.70823839190574
+150 -th epoch marginal likelihood 70.80681345042296
+200 -th epoch marginal likelihood 70.10022713847638
+250 -th epoch marginal likelihood 69.51198921983789
+300 -th epoch marginal likelihood 68.9934207832305
+350 -th epoch marginal likelihood 68.51287184631524
+400 -th epoch marginal likelihood 68.04859082867705
+450 -th epoch marginal likelihood 67.58422342932747
+500 -th epoch marginal likelihood 67.10718306284079
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  218
+proposal =  [ 2.19000e+02  9.00000e+00  5.00000e+00  2.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.39970e+01  1.33000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 2
+actions =  308
+proposal =  [ 3.09000e+02  9.00000e+00  1.00000e+00  3.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.03290e+01  9.50000e+01  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 3
+actions =  330
+proposal =  [ 3.31000e+02  1.00000e+00  3.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  9.50000e+01  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 4
+actions =  578
+proposal =  [ 579.        9.        9.        4.      172.55   2232.06    -76.7384
+    3.17    169.       16.        6.8      17.4   ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [219, 309, 331, 579]
+next exp ID   219,              Ar-F5_KOH_DMF
+next exp ID   309,          Ar-F5_Na2CO3_MeCN
+next exp ID   331,             Ar-H_NaOH_MeCN
+next exp ID   579,            Ar-F5_CsF_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [219, 309, 331, 579]
+1, ID   219,              Ar-F5_KOH_DMF,    yield p1   79.03 , p2   15.05 , p3    4.09 , total   98.16 , obj -1.893969
+2, ID   309,          Ar-F5_Na2CO3_MeCN,    yield p1   87.92 , p2    9.23 , p3    0.47 , total   97.62 , obj -2.382449
+3, ID   331,             Ar-H_NaOH_MeCN,    yield p1   47.92 , p2   22.19 , p3   30.50 , total  100.61 , obj -1.505395
+4, ID   579,            Ar-F5_CsF_nPrOH,    yield p1   59.08 , p2   25.34 , p3    7.28 , total   91.69 , obj -1.372872
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 80.27983647614307
+50 -th epoch marginal likelihood 78.25241198621353
+100 -th epoch marginal likelihood 77.02660994232338
+150 -th epoch marginal likelihood 76.10746514978234
+200 -th epoch marginal likelihood 75.36395002382169
+250 -th epoch marginal likelihood 74.7368396916743
+300 -th epoch marginal likelihood 74.19096327361984
+350 -th epoch marginal likelihood 73.70227966633965
+400 -th epoch marginal likelihood 73.2414294153693
+450 -th epoch marginal likelihood 72.80978723619351
+500 -th epoch marginal likelihood 72.3683818089224
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  343
+proposal =  [ 344.      14.       3.       3.     120.02  2219.32   -63.3     13.997
+   95.      15.3     18.       6.1  ]
+###
+###
+number = 2
+actions =  548
+proposal =  [ 549.        9.        7.        4.      172.55   2232.06    -76.7384
+    4.756   133.       16.        6.8      17.4   ]
+###
+###
+number = 3
+actions =  488
+proposal =  [ 489.        9.        3.        4.      172.55   2232.06    -76.7384
+   13.997    95.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  1208
+proposal =  [ 1.20900e+03  9.00000e+00  1.00000e+00  9.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.03290e+01  9.50000e+01  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [344, 549, 489, 1209]
+next exp ID   344,            Ak-Me_NaOH_MeCN
+next exp ID   549,           Ar-F5_KOAc_nPrOH
+next exp ID   489,           Ar-F5_NaOH_nPrOH
+next exp ID  1209,       Ar-F5_Na2CO3_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [344, 549, 489, 1209]
+1, ID   344,            Ak-Me_NaOH_MeCN,    yield p1   80.58 , p2   14.02 , p3    8.42 , total  103.02 , obj -1.964904
+2, ID   549,           Ar-F5_KOAc_nPrOH,    yield p1   68.06 , p2   26.28 , p3    3.21 , total   97.55 , obj -1.336391
+3, ID   489,           Ar-F5_NaOH_nPrOH,    yield p1   31.77 , p2   21.68 , p3   15.30 , total   68.75 , obj -1.528769
+4, ID  1209,       Ar-F5_Na2CO3_dioxane,    yield p1   92.52 , p2    5.24 , p3    0.82 , total   98.58 , obj -2.947903
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 84.17552134569348
+50 -th epoch marginal likelihood 81.70421469864604
+100 -th epoch marginal likelihood 80.34717930766959
+150 -th epoch marginal likelihood 79.46777471711879
+200 -th epoch marginal likelihood 78.70143497357344
+250 -th epoch marginal likelihood 78.08008315456189
+300 -th epoch marginal likelihood 77.56027692976346
+350 -th epoch marginal likelihood 77.07280010196592
+400 -th epoch marginal likelihood 76.6219275760982
+450 -th epoch marginal likelihood 76.19181160854579
+500 -th epoch marginal likelihood 75.80263581755273
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  568
+proposal =  [ 569.      14.       8.       4.     120.02  2219.32   -63.3     10.329
+  169.      16.       6.8     17.4  ]
+###
+###
+number = 2
+actions =  368
+proposal =  [ 369.        9.        5.        3.      172.55   2232.06    -76.7384
+   13.997   133.       15.3      18.        6.1   ]
+###
+###
+number = 3
+actions =  597
+proposal =  [ 598.          13.          10.           4.         171.3953578
+ 2213.980043   -29.2681      13.997      322.          16.
+    6.8         17.4      ]
+###
+###
+number = 4
+actions =  1326
+proposal =  [ 1.32700000e+03  7.00000000e+00  9.00000000e+00  9.00000000e+00
+  1.65455023e+02  2.22828475e+03 -7.66580000e+00  3.17000000e+00
+  1.69000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [569, 369, 598, 1327]
+next exp ID   569,         Ak-Me_Cs2CO3_nPrOH
+next exp ID   369,             Ar-F5_KOH_MeCN
+next exp ID   598,        Ak-nBu_NEt4OH_nPrOH
+next exp ID  1327,         Ar-CF3_CsF_dioxane
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [569, 369, 598, 1327]
+1, ID   569,         Ak-Me_Cs2CO3_nPrOH,    yield p1   86.17 , p2   10.26 , p3    2.66 , total   99.09 , obj -2.276675
+2, ID   369,             Ar-F5_KOH_MeCN,    yield p1   88.90 , p2    7.29 , p3    0.52 , total   96.71 , obj -2.619120
+3, ID   598,        Ak-nBu_NEt4OH_nPrOH,    yield p1   78.22 , p2    6.31 , p3    4.57 , total   89.10 , obj -2.763596
+4, ID  1327,         Ar-CF3_CsF_dioxane,    yield p1   91.21 , p2    8.28 , p3    0.87 , total  100.37 , obj -2.490774
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 98.50757649383101
+50 -th epoch marginal likelihood 93.43955346248457
+100 -th epoch marginal likelihood 90.61473134426146
+150 -th epoch marginal likelihood 89.03554992841842
+200 -th epoch marginal likelihood 87.99640740979788
+250 -th epoch marginal likelihood 87.27904901462006
+300 -th epoch marginal likelihood 86.65753069032596
+350 -th epoch marginal likelihood 86.11723896311068
+400 -th epoch marginal likelihood 85.59208906447142
+450 -th epoch marginal likelihood 85.1230510808439
+500 -th epoch marginal likelihood 84.7012176622634
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  420
+proposal =  [ 4.21000e+02  1.00000e+00  9.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  3.17000e+00  1.69000e+02  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 2
+actions =  631
+proposal =  [ 6.32000000e+02  2.00000000e+00  3.00000000e+00  5.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  7.40000000e+00  4.10000000e+00]
+###
+###
+number = 3
+actions =  630
+proposal =  [ 6.31000e+02  1.00000e+00  3.00000e+00  5.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  9.50000e+01  1.90000e+01
+  7.40000e+00  4.10000e+00]
+###
+###
+number = 4
+actions =  632
+proposal =  [ 633.           3.           3.           5.         172.5642436
+ 2217.825997    -8.6556      13.997       95.          19.
+    7.4          4.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [421, 632, 631, 633]
+next exp ID   421,              Ar-H_CsF_MeCN
+next exp ID   632,        Ar-OMe_NaOH_C2H4Cl2
+next exp ID   631,          Ar-H_NaOH_C2H4Cl2
+next exp ID   633,     Ar-Me2OMe_NaOH_C2H4Cl2
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [421, 632, 631, 633]
+1, ID   421,              Ar-H_CsF_MeCN,    yield p1   43.96 , p2   36.82 , p3   14.67 , total   95.44 , obj -0.999222
+2, ID   632,        Ar-OMe_NaOH_C2H4Cl2,    yield p1   80.12 , p2   12.62 , p3    6.41 , total   99.15 , obj -2.070122
+3, ID   631,          Ar-H_NaOH_C2H4Cl2,    yield p1   76.04 , p2   16.89 , p3    2.53 , total   95.47 , obj -1.778295
+4, ID   633,     Ar-Me2OMe_NaOH_C2H4Cl2,    yield p1   80.04 , p2   10.47 , p3    5.01 , total   95.52 , obj -2.256232
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 108.03458788222807
+50 -th epoch marginal likelihood 100.77909761369534
+100 -th epoch marginal likelihood 96.30208853052403
+150 -th epoch marginal likelihood 93.7163108184183
+200 -th epoch marginal likelihood 92.14326510720207
+250 -th epoch marginal likelihood 91.06265215539827
+300 -th epoch marginal likelihood 90.36561266098096
+350 -th epoch marginal likelihood 89.76290760027567
+400 -th epoch marginal likelihood 89.28603439466431
+450 -th epoch marginal likelihood 88.81822307588953
+500 -th epoch marginal likelihood 88.50005154566557
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  843
+proposal =  [ 844.           4.           7.           6.         211.3485433
+ 2210.78491    -35.7969       4.756      133.          17.5
+    8.8          0.       ]
+###
+###
+number = 2
+actions =  255
+proposal =  [ 2.56000e+02  1.00000e+00  8.00000e+00  2.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 3
+actions =  690
+proposal =  [ 6.91000e+02  1.00000e+00  7.00000e+00  5.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  4.75600e+00  1.33000e+02  1.90000e+01
+  7.40000e+00  4.10000e+00]
+###
+###
+number = 4
+actions =  405
+proposal =  [ 4.06000e+02  1.00000e+00  8.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [844, 256, 691, 406]
+next exp ID   844,          Ar-Me3_KOAc_PhCF3
+next exp ID   256,            Ar-H_Cs2CO3_DMF
+next exp ID   691,          Ar-H_KOAc_C2H4Cl2
+next exp ID   406,           Ar-H_Cs2CO3_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [844, 256, 691, 406]
+1, ID   844,          Ar-Me3_KOAc_PhCF3,    yield p1  108.38 , p2    0.44 , p3    0.01 , total  108.82 , obj -5.437294
+2, ID   256,            Ar-H_Cs2CO3_DMF,    yield p1   66.33 , p2   13.16 , p3   15.36 , total   94.86 , obj -2.028049
+3, ID   691,          Ar-H_KOAc_C2H4Cl2,    yield p1   87.63 , p2   10.48 , p3    1.53 , total   99.64 , obj -2.255538
+4, ID   406,           Ar-H_Cs2CO3_MeCN,    yield p1   33.09 , p2   44.16 , p3   19.37 , total   96.62 , obj -0.817413
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 110.61973480242092
+50 -th epoch marginal likelihood 104.26605412614597
+100 -th epoch marginal likelihood 100.67479306337316
+150 -th epoch marginal likelihood 98.68916388022757
+200 -th epoch marginal likelihood 97.2283157737196
+250 -th epoch marginal likelihood 96.286162620179
+300 -th epoch marginal likelihood 95.52502662197492
+350 -th epoch marginal likelihood 94.98145417491702
+400 -th epoch marginal likelihood 94.49105288127075
+450 -th epoch marginal likelihood 94.05371156540139
+500 -th epoch marginal likelihood 93.57289384177197
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  728
+proposal =  [ 729.        9.        9.        5.      172.55   2232.06    -76.7384
+    3.17    169.       19.        7.4       4.1   ]
+###
+###
+number = 2
+actions =  390
+proposal =  [ 3.91000e+02  1.00000e+00  7.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  4.75600e+00  1.33000e+02  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 3
+actions =  375
+proposal =  [ 3.76000e+02  1.00000e+00  6.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.23750e+01  1.33000e+02  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 4
+actions =  188
+proposal =  [ 1.89000e+02  9.00000e+00  3.00000e+00  2.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.39970e+01  9.50000e+01  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [729, 391, 376, 189]
+next exp ID   729,          Ar-F5_CsF_C2H4Cl2
+next exp ID   391,             Ar-H_KOAc_MeCN
+next exp ID   376,            Ar-H_K3PO4_MeCN
+next exp ID   189,             Ar-F5_NaOH_DMF
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [729, 391, 376, 189]
+1, ID   729,          Ar-F5_CsF_C2H4Cl2,    yield p1   96.42 , p2    2.12 , p3    0.68 , total   99.21 , obj -3.854949
+2, ID   391,             Ar-H_KOAc_MeCN,    yield p1   69.34 , p2   22.00 , p3    4.81 , total   96.15 , obj -1.514273
+3, ID   376,            Ar-H_K3PO4_MeCN,    ERROR!: too large  1.22 total yield, 
+4, ID   189,             Ar-F5_NaOH_DMF,    yield p1   75.10 , p2    7.60 , p3    5.10 , total   87.80 , obj -2.577209
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 124.36875964787367
+50 -th epoch marginal likelihood 115.60067440764419
+100 -th epoch marginal likelihood 110.13097156343056
+150 -th epoch marginal likelihood 106.75598770451481
+200 -th epoch marginal likelihood 105.0772195526478
+250 -th epoch marginal likelihood 103.56920314202534
+300 -th epoch marginal likelihood 102.57670773459381
+350 -th epoch marginal likelihood 101.83918002927061
+400 -th epoch marginal likelihood 101.30231922277684
+450 -th epoch marginal likelihood 100.88983226034819
+500 -th epoch marginal likelihood 100.44924089524719
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1498
+proposal =  [1499.      14.      10.      10.     120.02  2219.32   -63.3     13.997
+  322.      15.5      0.       0.   ]
+###
+###
+number = 2
+actions =  375
+proposal =  [ 3.76000e+02  1.00000e+00  6.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.23750e+01  1.33000e+02  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 3
+actions =  495
+proposal =  [ 4.96000e+02  1.00000e+00  4.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.33000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 4
+actions =  406
+proposal =  [ 4.07000000e+02  2.00000000e+00  8.00000000e+00  3.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.03290000e+01
+  1.69000000e+02  1.53000000e+01  1.80000000e+01  6.10000000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1499, 376, 496, 407]
+next exp ID  1499,        Ak-Me_NEt4OH_octane
+next exp ID   376,            Ar-H_K3PO4_MeCN
+next exp ID   496,           Ar-H_K2CO3_nPrOH
+next exp ID   407,         Ar-OMe_Cs2CO3_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1499, 376, 496, 407]
+1, ID  1499,        Ak-Me_NEt4OH_octane,    yield p1   98.71 , p2    1.28 , p3    0.07 , total  100.05 , obj -4.361752
+2, ID   376,            Ar-H_K3PO4_MeCN,    yield p1   60.39 , p2    8.15 , p3   38.94 , total  107.48 , obj -2.507106
+3, ID   496,           Ar-H_K2CO3_nPrOH,    yield p1   52.10 , p2   28.49 , p3   10.77 , total   91.36 , obj -1.255674
+4, ID   407,         Ar-OMe_Cs2CO3_MeCN,    yield p1   32.45 , p2   45.50 , p3   17.79 , total   95.74 , obj -0.787408
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 150.8755015159365
+50 -th epoch marginal likelihood 137.46965132541288
+100 -th epoch marginal likelihood 128.36639298521374
+150 -th epoch marginal likelihood 122.53774089417414
+200 -th epoch marginal likelihood 119.19938384111452
+250 -th epoch marginal likelihood 116.71837676602442
+300 -th epoch marginal likelihood 114.91278200183793
+350 -th epoch marginal likelihood 113.62340379009376
+400 -th epoch marginal likelihood 112.67949622736892
+450 -th epoch marginal likelihood 111.92574247169247
+500 -th epoch marginal likelihood 111.44683013425438
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  13
+proposal =  [ 1.40000e+01  1.40000e+01  1.00000e+00  1.00000e+00  1.20020e+02
+  2.21932e+03 -6.33000e+01  1.03290e+01  9.50000e+01  1.84000e+01
+  1.64000e+01  1.02000e+01]
+###
+###
+number = 2
+actions =  421
+proposal =  [ 4.22000000e+02  2.00000000e+00  9.00000000e+00  3.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  3.17000000e+00
+  1.69000000e+02  1.53000000e+01  1.80000000e+01  6.10000000e+00]
+###
+###
+number = 3
+actions =  301
+proposal =  [ 3.02000000e+02  2.00000000e+00  1.00000000e+00  3.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.03290000e+01
+  9.50000000e+01  1.53000000e+01  1.80000000e+01  6.10000000e+00]
+###
+###
+number = 4
+actions =  437
+proposal =  [ 438.           3.          10.           3.         172.5642436
+ 2217.825997    -8.6556      13.997      322.          15.3
+   18.           6.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [14, 422, 302, 438]
+next exp ID    14,          Ak-Me_Na2CO3_DMSO
+next exp ID   422,            Ar-OMe_CsF_MeCN
+next exp ID   302,         Ar-OMe_Na2CO3_MeCN
+next exp ID   438,      Ar-Me2OMe_NEt4OH_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [14, 422, 302, 438]
+1, ID    14,          Ak-Me_Na2CO3_DMSO,    ERROR!: too large  1.25 p1 yield, too large  1.26 total yield, 
+2, ID   422,            Ar-OMe_CsF_MeCN,    yield p1   59.34 , p2   23.19 , p3   11.57 , total   94.11 , obj -1.461252
+3, ID   302,         Ar-OMe_Na2CO3_MeCN,    yield p1   46.93 , p2   25.80 , p3   24.83 , total   97.57 , obj -1.354622
+4, ID   438,      Ar-Me2OMe_NEt4OH_MeCN,    yield p1   62.79 , p2   31.11 , p3    6.25 , total  100.15 , obj -1.167526
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 153.9345344224055
+50 -th epoch marginal likelihood 140.44557771305418
+100 -th epoch marginal likelihood 131.78691497329675
+150 -th epoch marginal likelihood 126.52462861295308
+200 -th epoch marginal likelihood 122.51857664023791
+250 -th epoch marginal likelihood 119.79588348436798
+300 -th epoch marginal likelihood 117.67679793060864
+350 -th epoch marginal likelihood 116.36639193644464
+400 -th epoch marginal likelihood 115.48877955963957
+450 -th epoch marginal likelihood 114.77812966524931
+500 -th epoch marginal likelihood 114.01487820029865
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1481
+proposal =  [1482.       12.        9.       10.      185.3    2206.2      66.1445
+    3.17    169.       15.5       0.        0.    ]
+###
+###
+number = 2
+actions =  450
+proposal =  [ 4.51000e+02  1.00000e+00  1.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 3
+actions =  436
+proposal =  [ 4.37000000e+02  2.00000000e+00  1.00000000e+01  3.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  3.22000000e+02  1.53000000e+01  1.80000000e+01  6.10000000e+00]
+###
+###
+number = 4
+actions =  465
+proposal =  [ 4.66000e+02  1.00000e+00  2.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  6.35100e+00  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1482, 451, 437, 466]
+next exp ID  1482,          Ak-tBu_CsF_octane
+next exp ID   451,          Ar-H_Na2CO3_nPrOH
+next exp ID   437,         Ar-OMe_NEt4OH_MeCN
+next exp ID   466,          Ar-H_NaHCO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1482, 451, 437, 466]
+1, ID  1482,          Ak-tBu_CsF_octane,    yield p1   88.69 , p2    0.94 , p3   11.45 , total  101.08 , obj -4.663017
+2, ID   451,          Ar-H_Na2CO3_nPrOH,    yield p1   53.55 , p2   33.37 , p3    8.77 , total   95.69 , obj -1.097475
+3, ID   437,         Ar-OMe_NEt4OH_MeCN,    yield p1   59.03 , p2   11.30 , p3   39.37 , total  109.70 , obj -2.180035
+4, ID   466,          Ar-H_NaHCO3_nPrOH,    yield p1   32.91 , p2   43.10 , p3   14.23 , total   90.24 , obj -0.841742
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 176.1137809065964
+50 -th epoch marginal likelihood 159.70061713595487
+100 -th epoch marginal likelihood 148.79886087588736
+150 -th epoch marginal likelihood 141.0086402968573
+200 -th epoch marginal likelihood 135.48785875539951
+250 -th epoch marginal likelihood 131.30662136199817
+300 -th epoch marginal likelihood 128.87712865126704
+350 -th epoch marginal likelihood 127.29070767894322
+400 -th epoch marginal likelihood 126.0250062509507
+450 -th epoch marginal likelihood 124.98290604705824
+500 -th epoch marginal likelihood 124.04650624870021
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  146
+proposal =  [1.47000e+02 1.20000e+01 1.00000e+01 1.00000e+00 1.85300e+02 2.20620e+03
+ 6.61445e+01 1.39970e+01 3.22000e+02 1.84000e+01 1.64000e+01 1.02000e+01]
+###
+###
+number = 2
+actions =  407
+proposal =  [ 408.           3.           8.           3.         172.5642436
+ 2217.825997    -8.6556      10.329      169.          15.3
+   18.           6.1      ]
+###
+###
+number = 3
+actions =  466
+proposal =  [ 4.67000000e+02  2.00000000e+00  2.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  451
+proposal =  [ 4.52000000e+02  2.00000000e+00  1.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.03290000e+01
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [147, 408, 467, 452]
+next exp ID   147,         Ak-tBu_NEt4OH_DMSO
+next exp ID   408,      Ar-Me2OMe_Cs2CO3_MeCN
+next exp ID   467,        Ar-OMe_NaHCO3_nPrOH
+next exp ID   452,        Ar-OMe_Na2CO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [147, 408, 467, 452]
+1, ID   147,         Ak-tBu_NEt4OH_DMSO,    yield p1   72.24 , p2    8.27 , p3    9.19 , total   89.69 , obj -2.492791
+2, ID   408,      Ar-Me2OMe_Cs2CO3_MeCN,    yield p1   38.58 , p2   48.92 , p3   12.30 , total   99.81 , obj -0.714916
+3, ID   467,        Ar-OMe_NaHCO3_nPrOH,    yield p1   33.34 , p2   32.73 , p3   19.48 , total   85.55 , obj -1.117005
+4, ID   452,        Ar-OMe_Na2CO3_nPrOH,    yield p1   49.47 , p2   24.79 , p3   13.13 , total   87.39 , obj -1.394845
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 174.55870613735203
+50 -th epoch marginal likelihood 157.79658601268898
+100 -th epoch marginal likelihood 147.50477462505114
+150 -th epoch marginal likelihood 140.5173870432971
+200 -th epoch marginal likelihood 135.62345402543747
+250 -th epoch marginal likelihood 131.85465020614592
+300 -th epoch marginal likelihood 129.57207145888157
+350 -th epoch marginal likelihood 127.78956550840007
+400 -th epoch marginal likelihood 126.86248147997054
+450 -th epoch marginal likelihood 125.74803374266187
+500 -th epoch marginal likelihood 125.09506689321921
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  333
+proposal =  [ 334.           4.           3.           3.         211.3485433
+ 2210.78491    -35.7969      13.997       95.          15.3
+   18.           6.1      ]
+###
+###
+number = 2
+actions =  409
+proposal =  [ 410.           5.           8.           3.         174.6629756
+ 2218.794147    -5.7884      10.329      169.          15.3
+   18.           6.1      ]
+###
+###
+number = 3
+actions =  300
+proposal =  [ 3.01000e+02  1.00000e+00  1.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  9.50000e+01  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 4
+actions =  439
+proposal =  [ 440.           5.          10.           3.         174.6629756
+ 2218.794147    -5.7884      13.997      322.          15.3
+   18.           6.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [334, 410, 301, 440]
+next exp ID   334,           Ar-Me3_NaOH_MeCN
+next exp ID   410,         Ar-Me2_Cs2CO3_MeCN
+next exp ID   301,           Ar-H_Na2CO3_MeCN
+next exp ID   440,         Ar-Me2_NEt4OH_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [334, 410, 301, 440]
+1, ID   334,           Ar-Me3_NaOH_MeCN,    ERROR!: lower pressure: 15.20 MPa, 
+2, ID   410,         Ar-Me2_Cs2CO3_MeCN,    ERROR!: lower pressure: 15.10 MPa, too large  3.07 p3 yield, too large  3.69 total yield, 
+3, ID   301,           Ar-H_Na2CO3_MeCN,    ERROR!: lower pressure: 15.80 MPa, upper pressure: 23.50 MPa, negative -0.71 p1 yield, negative -0.60 p3 yield, 
+4, ID   440,         Ar-Me2_NEt4OH_MeCN,    ERROR!: upper pressure: 27.50 MPa, negative area of STD, 
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 174.55870613735203
+50 -th epoch marginal likelihood 157.79658601268898
+100 -th epoch marginal likelihood 147.50477462505114
+150 -th epoch marginal likelihood 140.5173870432971
+200 -th epoch marginal likelihood 135.62345402543747
+250 -th epoch marginal likelihood 131.85465020614592
+300 -th epoch marginal likelihood 129.57207145888157
+350 -th epoch marginal likelihood 127.78956550840007
+400 -th epoch marginal likelihood 126.86248147997054
+450 -th epoch marginal likelihood 125.74803374266187
+500 -th epoch marginal likelihood 125.09506689321921
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  333
+proposal =  [ 334.           4.           3.           3.         211.3485433
+ 2210.78491    -35.7969      13.997       95.          15.3
+   18.           6.1      ]
+###
+###
+number = 2
+actions =  409
+proposal =  [ 410.           5.           8.           3.         174.6629756
+ 2218.794147    -5.7884      10.329      169.          15.3
+   18.           6.1      ]
+###
+###
+number = 3
+actions =  300
+proposal =  [ 3.01000e+02  1.00000e+00  1.00000e+00  3.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  9.50000e+01  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+###
+number = 4
+actions =  439
+proposal =  [ 440.           5.          10.           3.         174.6629756
+ 2218.794147    -5.7884      13.997      322.          15.3
+   18.           6.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [334, 410, 301, 440]
+next exp ID   334,           Ar-Me3_NaOH_MeCN
+next exp ID   410,         Ar-Me2_Cs2CO3_MeCN
+next exp ID   301,           Ar-H_Na2CO3_MeCN
+next exp ID   440,         Ar-Me2_NEt4OH_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [334, 410, 301, 440]
+1, ID   334,           Ar-Me3_NaOH_MeCN,    ERROR!: lower pressure: 17.00 MPa, 
+2, ID   410,         Ar-Me2_Cs2CO3_MeCN,    yield p1   46.14 , p2   44.50 , p3   10.32 , total  100.95 , obj -0.809784
+3, ID   301,           Ar-H_Na2CO3_MeCN,    yield p1   51.25 , p2   32.61 , p3   10.96 , total   94.82 , obj -1.120604
+4, ID   440,         Ar-Me2_NEt4OH_MeCN,    yield p1   67.65 , p2   30.68 , p3    4.36 , total  102.69 , obj -1.181552
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 174.04317273642044
+50 -th epoch marginal likelihood 157.8097796157835
+100 -th epoch marginal likelihood 147.29878811215877
+150 -th epoch marginal likelihood 140.5782106272364
+200 -th epoch marginal likelihood 135.5203292751547
+250 -th epoch marginal likelihood 132.26061243613808
+300 -th epoch marginal likelihood 130.1340111056786
+350 -th epoch marginal likelihood 128.65040193532062
+400 -th epoch marginal likelihood 127.5172198675363
+450 -th epoch marginal likelihood 126.6230745151668
+500 -th epoch marginal likelihood 125.95030339718154
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  521
+proposal =  [ 522.       12.        5.        4.      185.3    2206.2      66.1445
+   13.997   133.       16.        6.8      17.4   ]
+###
+###
+number = 2
+actions =  438
+proposal =  [ 439.           4.          10.           3.         211.3485433
+ 2210.78491    -35.7969      13.997      322.          15.3
+   18.           6.1      ]
+###
+###
+number = 3
+actions =  410
+proposal =  [ 411.        6.        8.        3.      166.26   2224.63     -9.8472
+   10.329   169.       15.3      18.        6.1   ]
+###
+###
+number = 4
+actions =  668
+proposal =  [ 669.        9.        5.        5.      172.55   2232.06    -76.7384
+   13.997   133.       19.        7.4       4.1   ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [522, 439, 411, 669]
+next exp ID   522,           Ak-tBu_KOH_nPrOH
+next exp ID   439,         Ar-Me3_NEt4OH_MeCN
+next exp ID   411,           Ar-F_Cs2CO3_MeCN
+next exp ID   669,          Ar-F5_KOH_C2H4Cl2
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [522, 439, 411, 669]
+1, ID   522,           Ak-tBu_KOH_nPrOH,    yield p1   69.53 , p2    0.39 , p3   14.02 , total   83.94 , obj -5.559679
+2, ID   439,         Ar-Me3_NEt4OH_MeCN,    yield p1  110.13 , p2    0.71 , p3    0.64 , total  111.48 , obj -4.944765
+3, ID   411,           Ar-F_Cs2CO3_MeCN,    yield p1   62.40 , p2   34.98 , p3    4.94 , total  102.32 , obj -1.050350
+4, ID   669,          Ar-F5_KOH_C2H4Cl2,    yield p1   95.73 , p2    1.88 , p3    0.46 , total   98.06 , obj -3.972628
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 191.05431606834048
+50 -th epoch marginal likelihood 172.92248998976277
+100 -th epoch marginal likelihood 161.11211480687865
+150 -th epoch marginal likelihood 154.0390606916551
+200 -th epoch marginal likelihood 148.2538383716867
+250 -th epoch marginal likelihood 144.6919787624455
+300 -th epoch marginal likelihood 141.94015435193046
+350 -th epoch marginal likelihood 139.79508797248215
+400 -th epoch marginal likelihood 138.5060813045768
+450 -th epoch marginal likelihood 137.17847419516792
+500 -th epoch marginal likelihood 136.48327979886471
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1425
+proposal =  [ 1.42600e+03  1.00000e+00  6.00000e+00  1.00000e+01  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.23750e+01  1.33000e+02  1.55000e+01
+  0.00000e+00  0.00000e+00]
+###
+###
+number = 2
+actions =  440
+proposal =  [ 441.        6.       10.        3.      166.26   2224.63     -9.8472
+   13.997   322.       15.3      18.        6.1   ]
+###
+###
+number = 3
+actions =  294
+proposal =  [ 2.95000e+02  1.00000e+01  1.00000e+01  2.00000e+00  1.65500e+02
+  2.22559e+03 -1.03996e+01  1.39970e+01  3.22000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 4
+actions =  493
+proposal =  [ 494.      14.       3.       4.     120.02  2219.32   -63.3     13.997
+   95.      16.       6.8     17.4  ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1426, 441, 295, 494]
+next exp ID  1426,          Ar-H_K3PO4_octane
+next exp ID   441,           Ar-F_NEt4OH_MeCN
+next exp ID   295,           Ar-Cl_NEt4OH_DMF
+next exp ID   494,           Ak-Me_NaOH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1426, 441, 295, 494]
+1, ID  1426,          Ar-H_K3PO4_octane,    yield p1   96.57 , p2    3.39 , p3    0.13 , total  100.08 , obj -3.385649
+2, ID   441,           Ar-F_NEt4OH_MeCN,    yield p1   54.31 , p2   33.49 , p3   11.82 , total   99.62 , obj -1.093984
+3, ID   295,           Ar-Cl_NEt4OH_DMF,    yield p1   69.33 , p2    7.45 , p3    4.24 , total   81.02 , obj -2.596471
+4, ID   494,           Ak-Me_NaOH_nPrOH,    ERROR!: too large  1.71 p1 yield, too large  1.81 total yield, 
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 188.60391482321472
+50 -th epoch marginal likelihood 171.88382678501097
+100 -th epoch marginal likelihood 161.17587173472742
+150 -th epoch marginal likelihood 154.3750659377257
+200 -th epoch marginal likelihood 149.23057601555962
+250 -th epoch marginal likelihood 145.65713392961254
+300 -th epoch marginal likelihood 143.74952962414096
+350 -th epoch marginal likelihood 142.10964326467615
+400 -th epoch marginal likelihood 141.05676595069406
+450 -th epoch marginal likelihood 140.1523433910538
+500 -th epoch marginal likelihood 138.9716333108989
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1303
+proposal =  [ 1.30400e+03  1.40000e+01  7.00000e+00  9.00000e+00  1.20020e+02
+  2.21932e+03 -6.33000e+01  4.75600e+00  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 2
+actions =  540
+proposal =  [ 5.41000e+02  1.00000e+00  7.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  4.75600e+00  1.33000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 3
+actions =  444
+proposal =  [ 445.       10.       10.        3.      165.5    2225.59    -10.3996
+   13.997   322.       15.3      18.        6.1   ]
+###
+###
+number = 4
+actions =  305
+proposal =  [ 3.06000e+02  6.00000e+00  1.00000e+00  3.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  1.03290e+01  9.50000e+01  1.53000e+01
+  1.80000e+01  6.10000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1304, 541, 445, 306]
+next exp ID  1304,         Ak-Me_KOAc_dioxane
+next exp ID   541,            Ar-H_KOAc_nPrOH
+next exp ID   445,          Ar-Cl_NEt4OH_MeCN
+next exp ID   306,           Ar-F_Na2CO3_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1304, 541, 445, 306]
+1, ID  1304,         Ak-Me_KOAc_dioxane,    ERROR!: lower pressure: 15.20 MPa, too large  25.86 p1 yield, too large  10.83 p3 yield, too large  36.87 total yield, 
+2, ID   541,            Ar-H_KOAc_nPrOH,    yield p1   46.56 , p2   33.09 , p3    7.65 , total   87.30 , obj -1.105919
+3, ID   445,          Ar-Cl_NEt4OH_MeCN,    yield p1   85.88 , p2   23.34 , p3    1.98 , total  111.20 , obj -1.454853
+4, ID   306,           Ar-F_Na2CO3_MeCN,    yield p1   75.58 , p2   23.26 , p3    2.53 , total  101.37 , obj -1.458285
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 196.43494454116484
+50 -th epoch marginal likelihood 177.12148703960412
+100 -th epoch marginal likelihood 165.0131549582538
+150 -th epoch marginal likelihood 158.34483327898317
+200 -th epoch marginal likelihood 152.8776677692912
+250 -th epoch marginal likelihood 149.05377039943406
+300 -th epoch marginal likelihood 146.38998155905884
+350 -th epoch marginal likelihood 144.87860465514973
+400 -th epoch marginal likelihood 143.82810590283998
+450 -th epoch marginal likelihood 142.74806039396623
+500 -th epoch marginal likelihood 142.0110612657894
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  433
+proposal =  [ 434.     14.      9.      3.    120.02 2219.32  -63.3     3.17  169.
+   15.3    18.      6.1 ]
+###
+###
+number = 2
+actions =  442
+proposal =  [ 443.           8.          10.           3.         184.5942422
+ 2234.942905   -10.0173      13.997      322.          15.3
+   18.           6.1      ]
+###
+###
+number = 3
+actions =  150
+proposal =  [ 1.51000e+02  1.00000e+00  1.00000e+00  2.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  9.50000e+01  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+###
+number = 4
+actions =  441
+proposal =  [ 442.           7.          10.           3.         165.4550225
+ 2228.284751    -7.6658      13.997      322.          15.3
+   18.           6.1      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [434, 443, 151, 442]
+next exp ID   434,             Ak-Me_CsF_MeCN
+next exp ID   443,        Ar-CF32_NEt4OH_MeCN
+next exp ID   151,            Ar-H_Na2CO3_DMF
+next exp ID   442,         Ar-CF3_NEt4OH_MeCN
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [434, 443, 151, 442]
+1, ID   434,             Ak-Me_CsF_MeCN,    yield p1   77.03 , p2    8.91 , p3   11.95 , total   97.90 , obj -2.417517
+2, ID   443,        Ar-CF32_NEt4OH_MeCN,    yield p1   93.83 , p2    0.92 , p3    0.25 , total   94.99 , obj -4.689505
+3, ID   151,            Ar-H_Na2CO3_DMF,    yield p1   77.42 , p2   16.94 , p3    7.61 , total  101.97 , obj -1.775535
+4, ID   442,         Ar-CF3_NEt4OH_MeCN,    yield p1   93.91 , p2    2.45 , p3    4.64 , total  101.00 , obj -3.709517
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 259.5818994207766
+50 -th epoch marginal likelihood 232.94877596610024
+100 -th epoch marginal likelihood 215.1916618085175
+150 -th epoch marginal likelihood 201.99123214572887
+200 -th epoch marginal likelihood 193.2403326532409
+250 -th epoch marginal likelihood 187.89761228419954
+300 -th epoch marginal likelihood 183.23947928243658
+350 -th epoch marginal likelihood 179.22189137072297
+400 -th epoch marginal likelihood 175.80154226327005
+450 -th epoch marginal likelihood 173.23754828511068
+500 -th epoch marginal likelihood 171.56270471458924
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  447
+proposal =  [ 448.          13.          10.           3.         171.3953578
+ 2213.980043   -29.2681      13.997      322.          15.3
+   18.           6.1      ]
+###
+###
+number = 2
+actions =  449
+proposal =  [ 450.         15.         10.          3.        165.353392 2215.967354
+  -19.1672     13.997     322.         15.3        18.          6.1     ]
+###
+###
+number = 3
+actions =  445
+proposal =  [ 446.          11.          10.           3.         174.3600174
+ 2210.257593     8.0093      13.997      322.          15.3
+   18.           6.1      ]
+###
+###
+number = 4
+actions =  600
+proposal =  [ 6.01000e+02  1.00000e+00  1.00000e+00  5.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  9.50000e+01  1.90000e+01
+  7.40000e+00  4.10000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [448, 450, 446, 601]
+next exp ID   448,         Ak-nBu_NEt4OH_MeCN
+next exp ID   450,          Ak-Et_NEt4OH_MeCN
+next exp ID   446,          Ak-Cy_NEt4OH_MeCN
+next exp ID   601,        Ar-H_Na2CO3_C2H4Cl2
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [448, 450, 446, 601]
+1, ID   448,         Ak-nBu_NEt4OH_MeCN,    yield p1   83.61 , p2   12.70 , p3    1.74 , total   98.06 , obj -2.063259
+2, ID   450,          Ak-Et_NEt4OH_MeCN,    ERROR!: too large  1.30 p1 yield, too large  1.31 total yield, 
+3, ID   446,          Ak-Cy_NEt4OH_MeCN,    yield p1   91.36 , p2    2.13 , p3    2.03 , total   95.53 , obj -3.850666
+4, ID   601,        Ar-H_Na2CO3_C2H4Cl2,    yield p1   80.05 , p2   17.18 , p3    2.84 , total  100.07 , obj -1.761253
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 289.3352737187054
+50 -th epoch marginal likelihood 255.65133865521932
+100 -th epoch marginal likelihood 233.31637117306087
+150 -th epoch marginal likelihood 217.17588764101856
+200 -th epoch marginal likelihood 206.53919958505497
+250 -th epoch marginal likelihood 199.43437851102084
+300 -th epoch marginal likelihood 192.6354350013515
+350 -th epoch marginal likelihood 188.03073279948836
+400 -th epoch marginal likelihood 184.08782570468532
+450 -th epoch marginal likelihood 181.0545708502819
+500 -th epoch marginal likelihood 178.5945083283974
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  643
+proposal =  [ 644.      14.       3.       5.     120.02  2219.32   -63.3     13.997
+   95.      19.       7.4      4.1  ]
+###
+###
+number = 2
+actions =  493
+proposal =  [ 494.      14.       3.       4.     120.02  2219.32   -63.3     13.997
+   95.      16.       6.8     17.4  ]
+###
+###
+number = 3
+actions =  470
+proposal =  [ 4.71000e+02  6.00000e+00  2.00000e+00  4.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  6.35100e+00  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 4
+actions =  15
+proposal =  [ 1.60000e+01  1.00000e+00  2.00000e+00  1.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  6.35100e+00  9.50000e+01  1.84000e+01
+  1.64000e+01  1.02000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [644, 494, 471, 16]
+next exp ID   644,         Ak-Me_NaOH_C2H4Cl2
+next exp ID   494,           Ak-Me_NaOH_nPrOH
+next exp ID   471,          Ar-F_NaHCO3_nPrOH
+next exp ID    16,           Ar-H_NaHCO3_DMSO
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [644, 494, 471, 16]
+1, ID   644,         Ak-Me_NaOH_C2H4Cl2,    yield p1   95.79 , p2    0.77 , p3    0.15 , total   96.70 , obj -4.869313
+2, ID   494,           Ak-Me_NaOH_nPrOH,    yield p1   86.41 , p2    3.02 , p3    1.43 , total   90.85 , obj -3.500787
+3, ID   471,          Ar-F_NaHCO3_nPrOH,    yield p1   42.02 , p2   47.38 , p3   12.75 , total  102.15 , obj -0.746918
+4, ID    16,           Ar-H_NaHCO3_DMSO,    yield p1  104.04 , p2   10.95 , p3    3.53 , total  118.53 , obj -2.211832
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 303.3501027669127
+50 -th epoch marginal likelihood 270.9155306134345
+100 -th epoch marginal likelihood 246.7097758820913
+150 -th epoch marginal likelihood 229.6965161623029
+200 -th epoch marginal likelihood 217.42224289152418
+250 -th epoch marginal likelihood 208.53568990596335
+300 -th epoch marginal likelihood 201.97046718990669
+350 -th epoch marginal likelihood 196.55759320777955
+400 -th epoch marginal likelihood 192.35726136557537
+450 -th epoch marginal likelihood 188.6741018579791
+500 -th epoch marginal likelihood 185.99927602333912
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  3
+proposal =  [ 4.00000000e+00  4.00000000e+00  1.00000000e+00  1.00000000e+00
+  2.11348543e+02  2.21078491e+03 -3.57969000e+01  1.03290000e+01
+  9.50000000e+01  1.84000000e+01  1.64000000e+01  1.02000000e+01]
+###
+###
+number = 2
+actions =  471
+proposal =  [ 4.72000000e+02  7.00000000e+00  2.00000000e+00  4.00000000e+00
+  1.65455023e+02  2.22828475e+03 -7.66580000e+00  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 3
+actions =  1333
+proposal =  [ 1.33400e+03  1.40000e+01  9.00000e+00  9.00000e+00  1.20020e+02
+  2.21932e+03 -6.33000e+01  3.17000e+00  1.69000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 4
+actions =  455
+proposal =  [ 4.56000e+02  6.00000e+00  1.00000e+00  4.00000e+00  1.66260e+02
+  2.22463e+03 -9.84720e+00  1.03290e+01  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [4, 472, 1334, 456]
+next exp ID     4,         Ar-Me3_Na2CO3_DMSO
+next exp ID   472,        Ar-CF3_NaHCO3_nPrOH
+next exp ID  1334,          Ak-Me_CsF_dioxane
+next exp ID   456,          Ar-F_Na2CO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [4, 472, 1334, 456]
+1, ID     4,         Ar-Me3_Na2CO3_DMSO,    ERROR!: too large  1.23 p1 yield, too large  1.24 total yield, 
+2, ID   472,        Ar-CF3_NaHCO3_nPrOH,    yield p1   71.54 , p2   17.79 , p3    8.53 , total   97.86 , obj -1.726567
+3, ID  1334,          Ak-Me_CsF_dioxane,    yield p1   85.45 , p2    8.42 , p3    2.40 , total   96.27 , obj -2.474972
+4, ID   456,          Ar-F_Na2CO3_nPrOH,    yield p1   54.62 , p2   27.40 , p3   10.31 , total   92.33 , obj -1.294785
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 279.12751482381987
+50 -th epoch marginal likelihood 232.4691385091433
+100 -th epoch marginal likelihood 210.11763461419457
+150 -th epoch marginal likelihood 197.93643258362908
+200 -th epoch marginal likelihood 190.39303718250363
+250 -th epoch marginal likelihood 186.38757384380372
+300 -th epoch marginal likelihood 183.20088321526757
+350 -th epoch marginal likelihood 180.49893357888809
+400 -th epoch marginal likelihood 177.87070742187103
+450 -th epoch marginal likelihood 175.62117109376112
+500 -th epoch marginal likelihood 173.74781602575018
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1413
+proposal =  [1414.           4.           5.          10.         211.3485433
+ 2210.78491    -35.7969      13.997      133.          15.5
+    0.           0.       ]
+###
+###
+number = 2
+actions =  467
+proposal =  [ 4.68000000e+02  3.00000000e+00  2.00000000e+00  4.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 3
+actions =  469
+proposal =  [ 4.70000000e+02  5.00000000e+00  2.00000000e+00  4.00000000e+00
+  1.74662976e+02  2.21879415e+03 -5.78840000e+00  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  562
+proposal =  [ 563.           8.           8.           4.         184.5942422
+ 2234.942905   -10.0173      10.329      169.          16.
+    6.8         17.4      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1414, 468, 470, 563]
+next exp ID  1414,          Ar-Me3_KOH_octane
+next exp ID   468,     Ar-Me2OMe_NaHCO3_nPrOH
+next exp ID   470,        Ar-Me2_NaHCO3_nPrOH
+next exp ID   563,       Ar-CF32_Cs2CO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1414, 468, 470, 563]
+1, ID  1414,          Ar-Me3_KOH_octane,    yield p1  110.72 , p2    3.60 , p3    0.92 , total  115.23 , obj -3.324821
+2, ID   468,     Ar-Me2OMe_NaHCO3_nPrOH,    yield p1   37.56 , p2   30.45 , p3   21.58 , total   89.59 , obj -1.189244
+3, ID   470,        Ar-Me2_NaHCO3_nPrOH,    yield p1   42.70 , p2   32.05 , p3   18.36 , total   93.11 , obj -1.137756
+4, ID   563,       Ar-CF32_Cs2CO3_nPrOH,    yield p1   93.85 , p2    3.67 , p3    1.00 , total   98.53 , obj -3.303979
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 277.5110306348036
+50 -th epoch marginal likelihood 232.50061746297962
+100 -th epoch marginal likelihood 210.44210713059
+150 -th epoch marginal likelihood 200.35544764699733
+200 -th epoch marginal likelihood 193.51863381818055
+250 -th epoch marginal likelihood 189.46935583410965
+300 -th epoch marginal likelihood 185.8140112293924
+350 -th epoch marginal likelihood 183.45665284913184
+400 -th epoch marginal likelihood 180.9510338754943
+450 -th epoch marginal likelihood 178.76273957593946
+500 -th epoch marginal likelihood 176.91270643429337
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1237
+proposal =  [ 1.23800000e+03  8.00000000e+00  3.00000000e+00  9.00000000e+00
+  1.84594242e+02  2.23494290e+03 -1.00173000e+01  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 2
+actions =  480
+proposal =  [ 4.81000e+02  1.00000e+00  3.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 3
+actions =  388
+proposal =  [ 389.      14.       6.       3.     120.02  2219.32   -63.3     12.375
+  133.      15.3     18.       6.1  ]
+###
+###
+number = 4
+actions =  510
+proposal =  [ 5.11000e+02  1.00000e+00  5.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  1.33000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1238, 481, 389, 511]
+next exp ID  1238,       Ar-CF32_NaOH_dioxane
+next exp ID   481,            Ar-H_NaOH_nPrOH
+next exp ID   389,           Ak-Me_K3PO4_MeCN
+next exp ID   511,             Ar-H_KOH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1238, 481, 389, 511]
+1, ID  1238,       Ar-CF32_NaOH_dioxane,    yield p1   88.50 , p2    5.32 , p3    4.34 , total   98.16 , obj -2.933348
+2, ID   481,            Ar-H_NaOH_nPrOH,    yield p1   19.53 , p2   29.33 , p3   19.71 , total   68.57 , obj -1.226624
+3, ID   389,           Ak-Me_K3PO4_MeCN,    yield p1   74.45 , p2   11.99 , p3   14.75 , total  101.20 , obj -2.121215
+4, ID   511,             Ar-H_KOH_nPrOH,    yield p1   34.94 , p2   42.50 , p3   17.62 , total   95.06 , obj -0.855586
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 285.90987641041636
+50 -th epoch marginal likelihood 237.8053078736044
+100 -th epoch marginal likelihood 215.13372230119938
+150 -th epoch marginal likelihood 204.5848195952464
+200 -th epoch marginal likelihood 198.38463172838595
+250 -th epoch marginal likelihood 195.6223620785328
+300 -th epoch marginal likelihood 191.8879284368396
+350 -th epoch marginal likelihood 188.6590060093822
+400 -th epoch marginal likelihood 186.0824493233024
+450 -th epoch marginal likelihood 183.63839038449044
+500 -th epoch marginal likelihood 181.6037775019418
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1233
+proposal =  [ 1.23400000e+03  4.00000000e+00  3.00000000e+00  9.00000000e+00
+  2.11348543e+02  2.21078491e+03 -3.57969000e+01  1.39970000e+01
+  9.50000000e+01  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 2
+actions =  425
+proposal =  [ 426.        6.        9.        3.      166.26   2224.63     -9.8472
+    3.17    169.       15.3      18.        6.1   ]
+###
+###
+number = 3
+actions =  525
+proposal =  [ 5.26000e+02  1.00000e+00  6.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.23750e+01  1.33000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 4
+actions =  569
+proposal =  [ 570.         15.          8.          4.        165.353392 2215.967354
+  -19.1672     10.329     169.         16.          6.8        17.4     ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1234, 426, 526, 570]
+next exp ID  1234,        Ar-Me3_NaOH_dioxane
+next exp ID   426,              Ar-F_CsF_MeCN
+next exp ID   526,           Ar-H_K3PO4_nPrOH
+next exp ID   570,         Ak-Et_Cs2CO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1234, 426, 526, 570]
+1, ID  1234,        Ar-Me3_NaOH_dioxane,    yield p1  112.22 , p2    1.95 , p3    2.67 , total  116.85 , obj -3.934880
+2, ID   426,              Ar-F_CsF_MeCN,    yield p1   72.36 , p2   24.84 , p3    3.25 , total  100.46 , obj -1.392533
+3, ID   526,           Ar-H_K3PO4_nPrOH,    yield p1   29.06 , p2   35.12 , p3   19.84 , total   84.02 , obj -1.046522
+4, ID   570,         Ak-Et_Cs2CO3_nPrOH,    yield p1   58.24 , p2   23.55 , p3   15.24 , total   97.02 , obj -1.446165
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 290.50236930320375
+50 -th epoch marginal likelihood 243.6126000459634
+100 -th epoch marginal likelihood 220.04861597436815
+150 -th epoch marginal likelihood 208.82898240221783
+200 -th epoch marginal likelihood 201.29803306452527
+250 -th epoch marginal likelihood 197.11412720022992
+300 -th epoch marginal likelihood 194.9222650856119
+350 -th epoch marginal likelihood 191.84076230703099
+400 -th epoch marginal likelihood 189.3161618577916
+450 -th epoch marginal likelihood 187.57727261471
+500 -th epoch marginal likelihood 185.0892161819662
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1019
+proposal =  [1020.         15.          8.          7.        165.353392 2215.967354
+  -19.1672     10.329     169.         15.8         3.7         6.3     ]
+###
+###
+number = 2
+actions =  462
+proposal =  [ 4.63000000e+02  1.30000000e+01  1.00000000e+00  4.00000000e+00
+  1.71395358e+02  2.21398004e+03 -2.92681000e+01  1.03290000e+01
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 3
+actions =  477
+proposal =  [ 4.78000000e+02  1.30000000e+01  2.00000000e+00  4.00000000e+00
+  1.71395358e+02  2.21398004e+03 -2.92681000e+01  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  511
+proposal =  [ 5.12000000e+02  2.00000000e+00  5.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  1.33000000e+02  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1020, 463, 478, 512]
+next exp ID  1020,         Ak-Et_Cs2CO3_BuOAc
+next exp ID   463,        Ak-nBu_Na2CO3_nPrOH
+next exp ID   478,        Ak-nBu_NaHCO3_nPrOH
+next exp ID   512,           Ar-OMe_KOH_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1020, 463, 478, 512]
+1, ID  1020,         Ak-Et_Cs2CO3_BuOAc,    yield p1   95.70 , p2    2.56 , p3    0.64 , total   98.90 , obj -3.666706
+2, ID   463,        Ak-nBu_Na2CO3_nPrOH,    yield p1   66.82 , p2   21.41 , p3    7.85 , total   96.08 , obj -1.541177
+3, ID   478,        Ak-nBu_NaHCO3_nPrOH,    ERROR!: too large  1.26 total yield, 
+4, ID   512,           Ar-OMe_KOH_nPrOH,    yield p1   26.32 , p2   30.51 , p3   20.16 , total   76.99 , obj -1.187246
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 308.09872112392844
+50 -th epoch marginal likelihood 254.40756650540303
+100 -th epoch marginal likelihood 228.6649248235783
+150 -th epoch marginal likelihood 215.3651436934272
+200 -th epoch marginal likelihood 207.30876357697872
+250 -th epoch marginal likelihood 202.11212104815272
+300 -th epoch marginal likelihood 198.77151498117524
+350 -th epoch marginal likelihood 195.75209107723316
+400 -th epoch marginal likelihood 193.36095336251586
+450 -th epoch marginal likelihood 190.53018629988355
+500 -th epoch marginal likelihood 188.7680225709521
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  853
+proposal =  [ 854.      14.       7.       6.     120.02  2219.32   -63.3      4.756
+  133.      17.5      8.8      0.   ]
+###
+###
+number = 2
+actions =  526
+proposal =  [ 5.27000000e+02  2.00000000e+00  6.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.23750000e+01
+  1.33000000e+02  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 3
+actions =  479
+proposal =  [ 4.80000000e+02  1.50000000e+01  2.00000000e+00  4.00000000e+00
+  1.65353392e+02  2.21596735e+03 -1.91672000e+01  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  477
+proposal =  [ 4.78000000e+02  1.30000000e+01  2.00000000e+00  4.00000000e+00
+  1.71395358e+02  2.21398004e+03 -2.92681000e+01  6.35100000e+00
+  9.50000000e+01  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [854, 527, 480, 478]
+next exp ID   854,           Ak-Me_KOAc_PhCF3
+next exp ID   527,         Ar-OMe_K3PO4_nPrOH
+next exp ID   480,         Ak-Et_NaHCO3_nPrOH
+next exp ID   478,        Ak-nBu_NaHCO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [854, 527, 480, 478]
+1, ID   854,           Ak-Me_KOAc_PhCF3,    yield p1   95.83 , p2    1.97 , p3    0.18 , total   97.98 , obj -3.928848
+2, ID   527,         Ar-OMe_K3PO4_nPrOH,    yield p1   10.54 , p2   20.73 , p3   23.08 , total   54.35 , obj -1.573660
+3, ID   480,         Ak-Et_NaHCO3_nPrOH,    yield p1   83.62 , p2    2.11 , p3    1.15 , total   86.89 , obj -3.858234
+4, ID   478,        Ak-nBu_NaHCO3_nPrOH,    yield p1   59.78 , p2   26.70 , p3   10.03 , total   96.51 , obj -1.320540
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 340.6678203122236
+50 -th epoch marginal likelihood 274.02450255705025
+100 -th epoch marginal likelihood 242.1464739327899
+150 -th epoch marginal likelihood 226.6480777390268
+200 -th epoch marginal likelihood 217.9995135122505
+250 -th epoch marginal likelihood 213.04301147677413
+300 -th epoch marginal likelihood 209.369948624872
+350 -th epoch marginal likelihood 205.2189672370323
+400 -th epoch marginal likelihood 202.94453948181382
+450 -th epoch marginal likelihood 201.02855889011593
+500 -th epoch marginal likelihood 198.75354963870353
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  930
+proposal =  [ 9.31000e+02  1.00000e+00  3.00000e+00  7.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  9.50000e+01  1.58000e+01
+  3.70000e+00  6.30000e+00]
+###
+###
+number = 2
+actions =  507
+proposal =  [ 508.          13.           4.           4.         171.3953578
+ 2213.980043   -29.2681      10.329      133.          16.
+    6.8         17.4      ]
+###
+###
+number = 3
+actions =  567
+proposal =  [ 568.          13.           8.           4.         171.3953578
+ 2213.980043   -29.2681      10.329      169.          16.
+    6.8         17.4      ]
+###
+###
+number = 4
+actions =  537
+proposal =  [ 538.          13.           6.           4.         171.3953578
+ 2213.980043   -29.2681      12.375      133.          16.
+    6.8         17.4      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [931, 508, 568, 538]
+next exp ID   931,            Ar-H_NaOH_BuOAc
+next exp ID   508,         Ak-nBu_K2CO3_nPrOH
+next exp ID   568,        Ak-nBu_Cs2CO3_nPrOH
+next exp ID   538,         Ak-nBu_K3PO4_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [931, 508, 568, 538]
+1, ID   931,            Ar-H_NaOH_BuOAc,    yield p1   85.58 , p2   13.36 , p3    2.30 , total  101.24 , obj -2.012576
+2, ID   508,         Ak-nBu_K2CO3_nPrOH,    yield p1   98.93 , p2    5.23 , p3    0.58 , total  104.75 , obj -2.950303
+3, ID   568,        Ak-nBu_Cs2CO3_nPrOH,    yield p1   85.51 , p2   10.89 , p3    1.63 , total   98.03 , obj -2.217195
+4, ID   538,         Ak-nBu_K3PO4_nPrOH,    yield p1   38.74 , p2    5.88 , p3   20.25 , total   64.87 , obj -2.834350
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 348.1565491832213
+50 -th epoch marginal likelihood 283.9154372809769
+100 -th epoch marginal likelihood 252.8756179444134
+150 -th epoch marginal likelihood 234.69299503701288
+200 -th epoch marginal likelihood 224.84774711410955
+250 -th epoch marginal likelihood 219.3275334439935
+300 -th epoch marginal likelihood 215.3220418444824
+350 -th epoch marginal likelihood 212.1330646003833
+400 -th epoch marginal likelihood 209.4408426277417
+450 -th epoch marginal likelihood 206.6741175606199
+500 -th epoch marginal likelihood 204.76600870994002
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  802
+proposal =  [ 803.           8.           4.           6.         184.5942422
+ 2234.942905   -10.0173      10.329      133.          17.5
+    8.8          0.       ]
+###
+###
+number = 2
+actions =  414
+proposal =  [ 415.       10.        8.        3.      165.5    2225.59    -10.3996
+   10.329   169.       15.3      18.        6.1   ]
+###
+###
+number = 3
+actions =  757
+proposal =  [ 7.58000000e+02  8.00000000e+00  1.00000000e+00  6.00000000e+00
+  1.84594242e+02  2.23494290e+03 -1.00173000e+01  1.03290000e+01
+  9.50000000e+01  1.75000000e+01  8.80000000e+00  0.00000000e+00]
+###
+###
+number = 4
+actions =  473
+proposal =  [ 4.74000e+02  9.00000e+00  2.00000e+00  4.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  6.35100e+00  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [803, 415, 758, 474]
+next exp ID   803,        Ar-CF32_K2CO3_PhCF3
+next exp ID   415,          Ar-Cl_Cs2CO3_MeCN
+next exp ID   758,       Ar-CF32_Na2CO3_PhCF3
+next exp ID   474,         Ar-F5_NaHCO3_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [803, 415, 758, 474]
+1, ID   803,        Ar-CF32_K2CO3_PhCF3,    yield p1   90.48 , p2    8.15 , p3    0.73 , total   99.36 , obj -2.507440
+2, ID   415,          Ar-Cl_Cs2CO3_MeCN,    yield p1   96.55 , p2   10.47 , p3    0.58 , total  107.60 , obj -2.256579
+3, ID   758,       Ar-CF32_Na2CO3_PhCF3,    yield p1   92.70 , p2    5.83 , p3    0.57 , total   99.10 , obj -2.842459
+4, ID   474,         Ar-F5_NaHCO3_nPrOH,    yield p1   69.07 , p2   21.79 , p3    7.22 , total   98.09 , obj -1.523758
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 365.6006683235646
+50 -th epoch marginal likelihood 294.59828120675036
+100 -th epoch marginal likelihood 257.933353221598
+150 -th epoch marginal likelihood 241.77771197525337
+200 -th epoch marginal likelihood 230.02265494495944
+250 -th epoch marginal likelihood 223.8552951056598
+300 -th epoch marginal likelihood 220.0148323085353
+350 -th epoch marginal likelihood 216.76149604615526
+400 -th epoch marginal likelihood 214.18384255261108
+450 -th epoch marginal likelihood 210.81898888744672
+500 -th epoch marginal likelihood 208.8930091230066
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1026
+proposal =  [1027.           7.           9.           7.         165.4550225
+ 2228.284751    -7.6658       3.17       169.          15.8
+    3.7          6.3      ]
+###
+###
+number = 2
+actions =  570
+proposal =  [ 5.71000e+02  1.00000e+00  9.00000e+00  4.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  3.17000e+00  1.69000e+02  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 3
+actions =  575
+proposal =  [ 576.        6.        9.        4.      166.26   2224.63     -9.8472
+    3.17    169.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  115
+proposal =  [1.16000000e+02 1.10000000e+01 8.00000000e+00 1.00000000e+00
+ 1.74360017e+02 2.21025759e+03 8.00930000e+00 1.03290000e+01
+ 1.69000000e+02 1.84000000e+01 1.64000000e+01 1.02000000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1027, 571, 576, 116]
+next exp ID  1027,           Ar-CF3_CsF_BuOAc
+next exp ID   571,             Ar-H_CsF_nPrOH
+next exp ID   576,             Ar-F_CsF_nPrOH
+next exp ID   116,          Ak-Cy_Cs2CO3_DMSO
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1027, 571, 576, 116]
+1, ID  1027,           Ar-CF3_CsF_BuOAc,    yield p1  100.28 , p2    0.66 , p3    0.01 , total  100.95 , obj -5.019939
+2, ID   571,             Ar-H_CsF_nPrOH,    yield p1   56.01 , p2   29.18 , p3   11.23 , total   96.41 , obj -1.231740
+3, ID   576,             Ar-F_CsF_nPrOH,    yield p1   66.87 , p2   30.51 , p3    4.04 , total  101.43 , obj -1.187107
+4, ID   116,          Ak-Cy_Cs2CO3_DMSO,    yield p1   91.21 , p2    1.76 , p3    3.86 , total   96.83 , obj -4.040121
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 371.085074426893
+50 -th epoch marginal likelihood 299.56973823212513
+100 -th epoch marginal likelihood 262.9603771158828
+150 -th epoch marginal likelihood 247.34151857486933
+200 -th epoch marginal likelihood 236.05159384644563
+250 -th epoch marginal likelihood 230.7908454970521
+300 -th epoch marginal likelihood 226.25309061566767
+350 -th epoch marginal likelihood 222.76871849961304
+400 -th epoch marginal likelihood 220.25841021696226
+450 -th epoch marginal likelihood 218.25425899405627
+500 -th epoch marginal likelihood 216.0909064942183
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  18
+proposal =  [ 1.90000000e+01  4.00000000e+00  2.00000000e+00  1.00000000e+00
+  2.11348543e+02  2.21078491e+03 -3.57969000e+01  6.35100000e+00
+  9.50000000e+01  1.84000000e+01  1.64000000e+01  1.02000000e+01]
+###
+###
+number = 2
+actions =  168
+proposal =  [ 1.69000000e+02  4.00000000e+00  2.00000000e+00  2.00000000e+00
+  2.11348543e+02  2.21078491e+03 -3.57969000e+01  6.35100000e+00
+  9.50000000e+01  1.74000000e+01  1.37000000e+01  1.13000000e+01]
+###
+###
+number = 3
+actions =  515
+proposal =  [ 516.        6.        5.        4.      166.26   2224.63     -9.8472
+   13.997   133.       16.        6.8      17.4   ]
+###
+###
+number = 4
+actions =  545
+proposal =  [ 546.        6.        7.        4.      166.26   2224.63     -9.8472
+    4.756   133.       16.        6.8      17.4   ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [19, 169, 516, 546]
+next exp ID    19,         Ar-Me3_NaHCO3_DMSO
+next exp ID   169,          Ar-Me3_NaHCO3_DMF
+next exp ID   516,             Ar-F_KOH_nPrOH
+next exp ID   546,            Ar-F_KOAc_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [19, 169, 516, 546]
+1, ID    19,         Ar-Me3_NaHCO3_DMSO,    ERROR!: too large  1.46 p1 yield, too large  1.48 total yield, 
+2, ID   169,          Ar-Me3_NaHCO3_DMF,    yield p1  106.03 , p2    1.78 , p3    3.65 , total  111.46 , obj -4.028494
+3, ID   516,             Ar-F_KOH_nPrOH,    yield p1   48.88 , p2   41.44 , p3   12.55 , total  102.88 , obj -0.880817
+4, ID   546,            Ar-F_KOAc_nPrOH,    yield p1   74.20 , p2   17.52 , p3    2.79 , total   94.51 , obj -1.741848
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 365.60780187186424
+50 -th epoch marginal likelihood 300.16503927753297
+100 -th epoch marginal likelihood 265.41116450270226
+150 -th epoch marginal likelihood 248.15910237953915
+200 -th epoch marginal likelihood 238.30424138958057
+250 -th epoch marginal likelihood 233.7014844099267
+300 -th epoch marginal likelihood 228.71307356520103
+350 -th epoch marginal likelihood 225.74282971756838
+400 -th epoch marginal likelihood 223.52624741738248
+450 -th epoch marginal likelihood 219.73404286648224
+500 -th epoch marginal likelihood 217.03447464397922
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  122
+proposal =  [ 1.23000000e+02  3.00000000e+00  9.00000000e+00  1.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  3.17000000e+00
+  1.69000000e+02  1.84000000e+01  1.64000000e+01  1.02000000e+01]
+###
+###
+number = 2
+actions =  485
+proposal =  [ 486.        6.        3.        4.      166.26   2224.63     -9.8472
+   13.997    95.       16.        6.8      17.4   ]
+###
+###
+number = 3
+actions =  1081
+proposal =  [ 1.08200000e+03  2.00000000e+00  3.00000000e+00  8.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.39970000e+01
+  9.50000000e+01  1.80000000e+01  1.40000000e+00  2.00000000e+00]
+###
+###
+number = 4
+actions =  1065
+proposal =  [ 1.06600e+03  1.00000e+00  2.00000e+00  8.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  6.35100e+00  9.50000e+01  1.80000e+01
+  1.40000e+00  2.00000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [123, 486, 1082, 1066]
+next exp ID   123,         Ar-Me2OMe_CsF_DMSO
+next exp ID   486,            Ar-F_NaOH_nPrOH
+next exp ID  1082,        Ar-OMe_NaOH_toluene
+next exp ID  1066,        Ar-H_NaHCO3_toluene
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [123, 486, 1082, 1066]
+1, ID   123,         Ar-Me2OMe_CsF_DMSO,    yield p1   89.89 , p2   13.10 , p3    5.09 , total  108.08 , obj -2.032532
+2, ID   486,            Ar-F_NaOH_nPrOH,    yield p1   18.72 , p2   12.94 , p3   19.40 , total   51.06 , obj -2.045066
+3, ID  1082,        Ar-OMe_NaOH_toluene,    yield p1  100.77 , p2    0.47 , p3    0.01 , total  101.26 , obj -5.352917
+4, ID  1066,        Ar-H_NaHCO3_toluene,    yield p1   98.02 , p2    1.34 , p3    0.13 , total   99.50 , obj -4.309943
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 409.94486575853296
+50 -th epoch marginal likelihood 328.0168071460063
+100 -th epoch marginal likelihood 285.7689906000172
+150 -th epoch marginal likelihood 264.18687364144984
+200 -th epoch marginal likelihood 253.55975759387238
+250 -th epoch marginal likelihood 246.01988530230608
+300 -th epoch marginal likelihood 241.95575771037437
+350 -th epoch marginal likelihood 239.09811806062925
+400 -th epoch marginal likelihood 235.4703823829151
+450 -th epoch marginal likelihood 232.73407577195644
+500 -th epoch marginal likelihood 230.55333062390338
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  938
+proposal =  [ 939.        9.        3.        7.      172.55   2232.06    -76.7384
+   13.997    95.       15.8       3.7       6.3   ]
+###
+###
+number = 2
+actions =  1005
+proposal =  [ 1.00600e+03  1.00000e+00  8.00000e+00  7.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.58000e+01
+  3.70000e+00  6.30000e+00]
+###
+###
+number = 3
+actions =  1006
+proposal =  [ 1.00700000e+03  2.00000000e+00  8.00000000e+00  7.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  1.03290000e+01
+  1.69000000e+02  1.58000000e+01  3.70000000e+00  6.30000000e+00]
+###
+###
+number = 4
+actions =  1007
+proposal =  [1008.           3.           8.           7.         172.5642436
+ 2217.825997    -8.6556      10.329      169.          15.8
+    3.7          6.3      ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [939, 1006, 1007, 1008]
+next exp ID   939,           Ar-F5_NaOH_BuOAc
+next exp ID  1006,          Ar-H_Cs2CO3_BuOAc
+next exp ID  1007,        Ar-OMe_Cs2CO3_BuOAc
+next exp ID  1008,     Ar-Me2OMe_Cs2CO3_BuOAc
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [939, 1006, 1007, 1008]
+1, ID   939,           Ar-F5_NaOH_BuOAc,    yield p1   92.64 , p2    5.58 , p3    0.94 , total   99.16 , obj -2.886804
+2, ID  1006,          Ar-H_Cs2CO3_BuOAc,    ERROR!: too large  1.29 p1 yield, too large  1.35 total yield, 
+3, ID  1007,        Ar-OMe_Cs2CO3_BuOAc,    yield p1   94.95 , p2    5.18 , p3    0.73 , total  100.85 , obj -2.961094
+4, ID  1008,     Ar-Me2OMe_Cs2CO3_BuOAc,    yield p1   98.05 , p2    1.67 , p3    0.31 , total  100.03 , obj -4.091995
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 422.37317549111907
+50 -th epoch marginal likelihood 333.4680197046122
+100 -th epoch marginal likelihood 290.9471524972877
+150 -th epoch marginal likelihood 271.2491799457829
+200 -th epoch marginal likelihood 260.6045033675231
+250 -th epoch marginal likelihood 253.87233711903573
+300 -th epoch marginal likelihood 248.87310886854718
+350 -th epoch marginal likelihood 244.775541127648
+400 -th epoch marginal likelihood 240.56434249712655
+450 -th epoch marginal likelihood 238.48374516902604
+500 -th epoch marginal likelihood 235.63899093211137
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1170
+proposal =  [ 1.17100e+03  1.00000e+00  9.00000e+00  8.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  3.17000e+00  1.69000e+02  1.80000e+01
+  1.40000e+00  2.00000e+00]
+###
+###
+number = 2
+actions =  1230
+proposal =  [ 1.23100e+03  1.00000e+00  3.00000e+00  9.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  9.50000e+01  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  571
+proposal =  [ 5.72000000e+02  2.00000000e+00  9.00000000e+00  4.00000000e+00
+  1.66890370e+02  2.21831982e+03 -1.06026000e+01  3.17000000e+00
+  1.69000000e+02  1.60000000e+01  6.80000000e+00  1.74000000e+01]
+###
+###
+number = 4
+actions =  278
+proposal =  [ 2.79000e+02  9.00000e+00  9.00000e+00  2.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  3.17000e+00  1.69000e+02  1.74000e+01
+  1.37000e+01  1.13000e+01]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1171, 1231, 572, 279]
+next exp ID  1171,           Ar-H_CsF_toluene
+next exp ID  1231,          Ar-H_NaOH_dioxane
+next exp ID   572,           Ar-OMe_CsF_nPrOH
+next exp ID   279,              Ar-F5_CsF_DMF
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1171, 1231, 572, 279]
+1, ID  1171,           Ar-H_CsF_toluene,    yield p1  111.91 , p2    2.58 , p3    0.29 , total  114.78 , obj -3.657507
+2, ID  1231,          Ar-H_NaOH_dioxane,    yield p1   54.41 , p2   37.61 , p3   11.75 , total  103.78 , obj -0.977803
+3, ID   572,           Ar-OMe_CsF_nPrOH,    yield p1   50.72 , p2   27.54 , p3   11.79 , total   90.04 , obj -1.289711
+4, ID   279,              Ar-F5_CsF_DMF,    yield p1   78.54 , p2    5.76 , p3   25.25 , total  109.55 , obj -2.853519
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 448.3316039458603
+50 -th epoch marginal likelihood 352.1136874899843
+100 -th epoch marginal likelihood 304.91369449241677
+150 -th epoch marginal likelihood 280.2073084259678
+200 -th epoch marginal likelihood 267.3864037406038
+250 -th epoch marginal likelihood 258.0159769129774
+300 -th epoch marginal likelihood 253.39451821006367
+350 -th epoch marginal likelihood 248.92518771769386
+400 -th epoch marginal likelihood 245.62414492333747
+450 -th epoch marginal likelihood 242.68230460813515
+500 -th epoch marginal likelihood 241.41467376337204
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  1241
+proposal =  [1.24200e+03 1.20000e+01 3.00000e+00 9.00000e+00 1.85300e+02 2.20620e+03
+ 6.61445e+01 1.39970e+01 9.50000e+01 1.90000e+01 1.80000e+00 7.40000e+00]
+###
+###
+number = 2
+actions =  1343
+proposal =  [ 1.34400e+03  9.00000e+00  1.00000e+01  9.00000e+00  1.72550e+02
+  2.23206e+03 -7.67384e+01  1.39970e+01  3.22000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  1335
+proposal =  [ 1.33600e+03  1.00000e+00  1.00000e+01  9.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.39970e+01  3.22000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 4
+actions =  583
+proposal =  [ 584.     14.      9.      4.    120.02 2219.32  -63.3     3.17  169.
+   16.      6.8    17.4 ]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [1242, 1344, 1336, 584]
+next exp ID  1242,        Ak-tBu_NaOH_dioxane
+next exp ID  1344,       Ar-F5_NEt4OH_dioxane
+next exp ID  1336,        Ar-H_NEt4OH_dioxane
+next exp ID   584,            Ak-Me_CsF_nPrOH
+
+========== END ================================================================================
+
+
+
+--- PDA and Profile transfer ----------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+execution of evaluate_objective_2024_06_25.exe
+--- evaluate integral and objective ----------
+executed exp [1242, 1344, 1336, 584]
+1, ID  1242,        Ak-tBu_NaOH_dioxane,    yield p1   70.59 , p2    0.43 , p3   27.89 , total   98.91 , obj -5.445098
+2, ID  1344,       Ar-F5_NEt4OH_dioxane,    yield p1   86.98 , p2    3.08 , p3    8.49 , total   98.55 , obj -3.481690
+3, ID  1336,        Ar-H_NEt4OH_dioxane,    yield p1   56.47 , p2   34.37 , p3   10.22 , total  101.06 , obj -1.068086
+4, ID   584,            Ak-Me_CsF_nPrOH,    yield p1   95.21 , p2    1.60 , p3    0.11 , total   96.92 , obj -4.137481
+
+execution of decision_by_nimsos_2024_06_21.exe
+=== execute nims-os ==========
+
+--- settings ----------
+NumObjectives = 1
+NumProposals  = 4 
+
+--- running nimsos ----------
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 455.6512239507546
+50 -th epoch marginal likelihood 360.54903763551664
+100 -th epoch marginal likelihood 312.597574207507
+150 -th epoch marginal likelihood 287.398558582696
+200 -th epoch marginal likelihood 275.2419928588839
+250 -th epoch marginal likelihood 268.32981124635916
+300 -th epoch marginal likelihood 263.6093502772392
+350 -th epoch marginal likelihood 259.48064007357584
+400 -th epoch marginal likelihood 256.01566439623775
+450 -th epoch marginal likelihood 253.8988330318005
+500 -th epoch marginal likelihood 251.6297892839608
+Done
+
+0002-th multiple probe search (TS)
+Proposals
+###
+number = 1
+actions =  478
+proposal =  [ 4.79000e+02  1.40000e+01  2.00000e+00  4.00000e+00  1.20020e+02
+  2.21932e+03 -6.33000e+01  6.35100e+00  9.50000e+01  1.60000e+01
+  6.80000e+00  1.74000e+01]
+###
+###
+number = 2
+actions =  1305
+proposal =  [ 1.30600e+03  1.00000e+00  8.00000e+00  9.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.03290e+01  1.69000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+###
+number = 3
+actions =  1337
+proposal =  [ 1.33800000e+03  3.00000000e+00  1.00000000e+01  9.00000000e+00
+  1.72564244e+02  2.21782600e+03 -8.65560000e+00  1.39970000e+01
+  3.22000000e+02  1.90000000e+01  1.80000000e+00  7.40000000e+00]
+###
+###
+number = 4
+actions =  1275
+proposal =  [ 1.27600e+03  1.00000e+00  6.00000e+00  9.00000e+00  1.65870e+02
+  2.22337e+03 -5.79060e+00  1.23750e+01  1.33000e+02  1.90000e+01
+  1.80000e+00  7.40000e+00]
+###
+Finish selection of proposals!
+
+--- next experiment ----------
+proposals = [479, 1306, 1338, 1276]
+next exp ID   479,         Ak-Me_NaHCO3_nPrOH
+next exp ID  1306,        Ar-H_Cs2CO3_dioxane
+next exp ID  1338,   Ar-Me2OMe_NEt4OH_dioxane
+next exp ID  1276,         Ar-H_K3PO4_dioxane
+
+========== END ================================================================================
+
+
+

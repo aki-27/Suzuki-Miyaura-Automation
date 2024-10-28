@@ -1,0 +1,2 @@
+NumObjectives = 1
+NumProposals  = 4
