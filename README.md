@@ -24,6 +24,10 @@ Chemspeed system executes the suggested 4 experiments and their analysis. After 
 `2nd_result.csv` and `2nd_profile.csv`, `3rd_result.csv` and `3rd_profile.csv`, and `4th_result.csv` and `4th_profile.csv` are also outputted as same way.
 These 8 files are transferred to `C:\robotcsv` directory by SFC system.
 
+## 4. Training and Evaluation by Gaussian Process Regression
+Training and evaluation during the optimization campaign using Gaussian Process Regression were conducted with the PHYSBO optimizer, which was accessed through the NIMS-OS library (now renamed NIMO). In the optimization campaign, all experimental data obtained up to that point were used for training, and hyperparameter tuning was automatically performed in each batch by PHYSBO. Thompson Sampling was selected as the acquisition function for Bayesian optimization. Please refer to the code and the PHYSBO library documentation for more technical details.
+https://issp-center-dev.github.io/PHYSBO/manual/master/en/index.html
+
 ## 3. Integration and Error Detection
 An `evaluate_objective` program writes 4 objective values of experiments in `candidates.csv.`
 - Parameters of `param.txt`
