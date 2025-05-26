@@ -69,7 +69,7 @@ https://issp-center-dev.github.io/PHYSBO/manual/master/en/index.html
 
 `pyinstaller 5.8.0`
 
-These programs were compiled with pyinstaller to one exe file by below PowerShell command.
+These programs were compiled into a single executable file using PyInstaller with the following PowerShell command in a Windows 10 environment.
 ```
 ..\pyinstaller.exe $Args[0] `
     --hidden-import=sklearn.metrics._pairwise_distances_reduction._datasets_pair `
