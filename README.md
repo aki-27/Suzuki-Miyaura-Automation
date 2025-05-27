@@ -49,6 +49,8 @@ Training and evaluation in `decision_by_nimsos.bat` during the optimization camp
 
 https://issp-center-dev.github.io/PHYSBO/manual/master/en/index.html
 
+**To execute `decision_by_nimsos_2024_06_21.py` or `.exe` in a local environment, three input files are required: an output file `candidates.csv`, an experimental table `exp_table.csv`, and a GPR settings file `settings.txt`.**
+
 ## Sumarry of File IO
 - Chemspeed system
     - Input: `input_for_chemspeed.csv` (suggested 4 experimental conditions)
@@ -61,7 +63,7 @@ https://issp-center-dev.github.io/PHYSBO/manual/master/en/index.html
 
 - `decision_by_nimsos` program
     - Input: `candidates.csv`, `exp_table.csv` (table of expID, experimental conditions, and, symbolic representation of each conditions)
-    - Output: `input_for_chemspeed.csv`
+    - Output: table of proposed next experiments `input_for_chemspeed.csv`
     - Setting file: `settings.txt`
 
 # Used version for Actual Experiment
