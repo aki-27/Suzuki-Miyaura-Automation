@@ -1,0 +1,396 @@
+---------- Linear ----------
+params, R2(train), R2(test)
+outer CV R2(train): 0.792, R2(test): 0.532
+outer CV R2(train): 0.814, R2(test): 0.438
+outer CV R2(train): 0.770, R2(test): 0.631
+outer CV R2(train): 0.747, R2(test): 0.679
+outer CV R2(train): 0.805, R2(test): 0.534
+outer CV R2(train): 0.805, R2(test): 0.522
+outer CV R2(train): 0.767, R2(test): 0.591
+outer CV R2(train): 0.795, R2(test): 0.536
+outer CV R2(train): 0.809, R2(test): 0.444
+outer CV R2(train): 0.766, R2(test): 0.530
+outer CV R2(train): 0.795, R2(test): 0.478
+outer CV R2(train): 0.826, R2(test): 0.474
+outer CV R2(train): 0.816, R2(test): 0.453
+outer CV R2(train): 0.794, R2(test): 0.464
+outer CV R2(train): 0.803, R2(test): 0.232
+outer CV R2(train): 0.779, R2(test): 0.515
+outer CV R2(train): 0.784, R2(test): 0.475
+outer CV R2(train): 0.809, R2(test): 0.449
+outer CV R2(train): 0.819, R2(test): 0.435
+outer CV R2(train): 0.766, R2(test): 0.569
+outer CV R2(train): 0.792, R2(test): 0.503
+outer CV R2(train): 0.776, R2(test): 0.609
+outer CV R2(train): 0.794, R2(test): 0.549
+outer CV R2(train): 0.790, R2(test): 0.574
+outer CV R2(train): 0.815, R2(test): 0.494
+outer CV R2(train): 0.821, R2(test): 0.260
+outer CV R2(train): 0.773, R2(test): 0.548
+outer CV R2(train): 0.748, R2(test): 0.688
+outer CV R2(train): 0.767, R2(test): 0.689
+outer CV R2(train): 0.825, R2(test): 0.513
+[Linear] total result = R2(train): 0.792, R2(test): 0.514
+---------- Lasso ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.536, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.729, R2(test): 0.637
+inner CV: R2(test): 0.509, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.736, R2(test): 0.520
+inner CV: R2(test): 0.482, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.720, R2(test): 0.551
+inner CV: R2(test): 0.460, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.690, R2(test): 0.635
+inner CV: R2(test): 0.567, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.737, R2(test): 0.543
+inner CV: R2(test): 0.569, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.754, R2(test): 0.563
+inner CV: R2(test): 0.412, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.675, R2(test): 0.698
+inner CV: R2(test): 0.479, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.742, R2(test): 0.581
+inner CV: R2(test): 0.531, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.752, R2(test): 0.540
+inner CV: R2(test): 0.470, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.714, R2(test): 0.551
+inner CV: R2(test): 0.496, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.730, R2(test): 0.635
+inner CV: R2(test): 0.591, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.770, R2(test): 0.490
+inner CV: R2(test): 0.563, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.753, R2(test): 0.543
+inner CV: R2(test): 0.468, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.718, R2(test): 0.588
+inner CV: R2(test): 0.566, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.755, R2(test): 0.250
+inner CV: R2(test): 0.436, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.707, R2(test): 0.533
+inner CV: R2(test): 0.532, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.722, R2(test): 0.544
+inner CV: R2(test): 0.541, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.757, R2(test): 0.457
+inner CV: R2(test): 0.517, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.745, R2(test): 0.400
+inner CV: R2(test): 0.439, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.713, R2(test): 0.625
+inner CV: R2(test): 0.528, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.735, R2(test): 0.540
+inner CV: R2(test): 0.510, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.724, R2(test): 0.607
+inner CV: R2(test): 0.466, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.723, R2(test): 0.650
+inner CV: R2(test): 0.493, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.730, R2(test): 0.595
+inner CV: R2(test): 0.470, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.722, R2(test): 0.571
+inner CV: R2(test): 0.572, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.757, R2(test): 0.515
+inner CV: R2(test): 0.511, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.723, R2(test): 0.580
+inner CV: R2(test): 0.366, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.682, R2(test): 0.715
+inner CV: R2(test): 0.508, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.720, R2(test): 0.624
+inner CV: R2(test): 0.559, params: {'lasso__alpha': 0.1}, outer CV R2(train): 0.766, R2(test): 0.535
+[Lasso] total result = R2(train): 0.730, R2(test): 0.561
+---------- Ridge ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.495, params: {'ridge__alpha': 100}, outer CV R2(train): 0.787, R2(test): 0.576
+inner CV: R2(test): 0.435, params: {'ridge__alpha': 100}, outer CV R2(train): 0.809, R2(test): 0.496
+inner CV: R2(test): 0.399, params: {'ridge__alpha': 100}, outer CV R2(train): 0.766, R2(test): 0.647
+inner CV: R2(test): 0.313, params: {'ridge__alpha': 100}, outer CV R2(train): 0.746, R2(test): 0.669
+inner CV: R2(test): 0.488, params: {'ridge__alpha': 100}, outer CV R2(train): 0.802, R2(test): 0.549
+inner CV: R2(test): 0.522, params: {'ridge__alpha': 100}, outer CV R2(train): 0.802, R2(test): 0.530
+inner CV: R2(test): 0.277, params: {'ridge__alpha': 100}, outer CV R2(train): 0.752, R2(test): 0.674
+inner CV: R2(test): 0.375, params: {'ridge__alpha': 100}, outer CV R2(train): 0.792, R2(test): 0.560
+inner CV: R2(test): 0.451, params: {'ridge__alpha': 100}, outer CV R2(train): 0.806, R2(test): 0.488
+inner CV: R2(test): 0.361, params: {'ridge__alpha': 100}, outer CV R2(train): 0.761, R2(test): 0.582
+inner CV: R2(test): 0.445, params: {'ridge__alpha': 100}, outer CV R2(train): 0.788, R2(test): 0.570
+inner CV: R2(test): 0.463, params: {'ridge__alpha': 100}, outer CV R2(train): 0.824, R2(test): 0.475
+inner CV: R2(test): 0.541, params: {'ridge__alpha': 100}, outer CV R2(train): 0.814, R2(test): 0.477
+inner CV: R2(test): 0.463, params: {'ridge__alpha': 100}, outer CV R2(train): 0.788, R2(test): 0.512
+inner CV: R2(test): 0.464, params: {'ridge__alpha': 100}, outer CV R2(train): 0.799, R2(test): 0.260
+inner CV: R2(test): 0.341, params: {'ridge__alpha': 100}, outer CV R2(train): 0.776, R2(test): 0.534
+inner CV: R2(test): 0.444, params: {'ridge__alpha': 100}, outer CV R2(train): 0.773, R2(test): 0.559
+inner CV: R2(test): 0.483, params: {'ridge__alpha': 100}, outer CV R2(train): 0.807, R2(test): 0.460
+inner CV: R2(test): 0.375, params: {'ridge__alpha': 100}, outer CV R2(train): 0.816, R2(test): 0.443
+inner CV: R2(test): 0.344, params: {'ridge__alpha': 100}, outer CV R2(train): 0.762, R2(test): 0.614
+inner CV: R2(test): 0.420, params: {'ridge__alpha': 100}, outer CV R2(train): 0.785, R2(test): 0.542
+inner CV: R2(test): 0.435, params: {'ridge__alpha': 100}, outer CV R2(train): 0.773, R2(test): 0.616
+inner CV: R2(test): 0.381, params: {'ridge__alpha': 100}, outer CV R2(train): 0.789, R2(test): 0.575
+inner CV: R2(test): 0.377, params: {'ridge__alpha': 100}, outer CV R2(train): 0.788, R2(test): 0.597
+inner CV: R2(test): 0.387, params: {'ridge__alpha': 100}, outer CV R2(train): 0.809, R2(test): 0.552
+inner CV: R2(test): 0.511, params: {'ridge__alpha': 100}, outer CV R2(train): 0.818, R2(test): 0.313
+inner CV: R2(test): 0.424, params: {'ridge__alpha': 100}, outer CV R2(train): 0.771, R2(test): 0.559
+inner CV: R2(test): 0.269, params: {'ridge__alpha': 100}, outer CV R2(train): 0.745, R2(test): 0.705
+inner CV: R2(test): 0.364, params: {'ridge__alpha': 100}, outer CV R2(train): 0.765, R2(test): 0.681
+inner CV: R2(test): 0.542, params: {'ridge__alpha': 100}, outer CV R2(train): 0.823, R2(test): 0.525
+[Ridge] total result = R2(train): 0.788, R2(test): 0.545
+---------- ElasticNet ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.545, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.744, R2(test): 0.637
+inner CV: R2(test): 0.511, params: {'elasticnet__alpha': 10, 'elasticnet__l1_ratio': 0}, outer CV R2(train): 0.757, R2(test): 0.555
+inner CV: R2(test): 0.482, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.720, R2(test): 0.551
+inner CV: R2(test): 0.460, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.690, R2(test): 0.635
+inner CV: R2(test): 0.576, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.6}, outer CV R2(train): 0.772, R2(test): 0.559
+inner CV: R2(test): 0.577, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.6}, outer CV R2(train): 0.778, R2(test): 0.553
+inner CV: R2(test): 0.412, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.675, R2(test): 0.698
+inner CV: R2(test): 0.479, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.742, R2(test): 0.581
+inner CV: R2(test): 0.531, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.752, R2(test): 0.540
+inner CV: R2(test): 0.471, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.728, R2(test): 0.570
+inner CV: R2(test): 0.503, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.6}, outer CV R2(train): 0.757, R2(test): 0.634
+inner CV: R2(test): 0.598, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.785, R2(test): 0.498
+inner CV: R2(test): 0.579, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.6}, outer CV R2(train): 0.783, R2(test): 0.531
+inner CV: R2(test): 0.489, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.4}, outer CV R2(train): 0.770, R2(test): 0.577
+inner CV: R2(test): 0.566, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.755, R2(test): 0.250
+inner CV: R2(test): 0.442, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.725, R2(test): 0.543
+inner CV: R2(test): 0.536, params: {'elasticnet__alpha': 10, 'elasticnet__l1_ratio': 0}, outer CV R2(train): 0.742, R2(test): 0.529
+inner CV: R2(test): 0.545, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.769, R2(test): 0.466
+inner CV: R2(test): 0.527, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.762, R2(test): 0.424
+inner CV: R2(test): 0.440, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.726, R2(test): 0.623
+inner CV: R2(test): 0.528, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.735, R2(test): 0.540
+inner CV: R2(test): 0.513, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.737, R2(test): 0.615
+inner CV: R2(test): 0.471, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.739, R2(test): 0.649
+inner CV: R2(test): 0.493, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.730, R2(test): 0.595
+inner CV: R2(test): 0.476, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.750, R2(test): 0.586
+inner CV: R2(test): 0.575, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.769, R2(test): 0.509
+inner CV: R2(test): 0.511, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.723, R2(test): 0.580
+inner CV: R2(test): 0.368, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 0.8}, outer CV R2(train): 0.697, R2(test): 0.722
+inner CV: R2(test): 0.508, params: {'elasticnet__alpha': 0.1, 'elasticnet__l1_ratio': 1}, outer CV R2(train): 0.720, R2(test): 0.624
+inner CV: R2(test): 0.571, params: {'elasticnet__alpha': 10, 'elasticnet__l1_ratio': 0}, outer CV R2(train): 0.774, R2(test): 0.516
+[ElasticNet] total result = R2(train): 0.744, R2(test): 0.563
+---------- PolyRidge ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.345, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.870, R2(test): 0.460
+inner CV: R2(test): 0.145, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.844, R2(test): 0.492
+inner CV: R2(test): 0.198, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.893, R2(test): 0.404
+inner CV: R2(test): 0.162, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.853, R2(test): 0.462
+inner CV: R2(test): 0.376, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.892, R2(test): 0.500
+inner CV: R2(test): 0.314, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.872, R2(test): 0.359
+inner CV: R2(test): 0.156, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.849, R2(test): 0.422
+inner CV: R2(test): 0.282, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.871, R2(test): 0.494
+inner CV: R2(test): 0.382, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.910, R2(test): 0.266
+inner CV: R2(test): 0.117, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.881, R2(test): 0.524
+inner CV: R2(test): 0.367, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.883, R2(test): 0.375
+inner CV: R2(test): 0.306, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.865, R2(test): 0.469
+inner CV: R2(test): 0.498, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.907, R2(test): 0.375
+inner CV: R2(test): 0.288, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.864, R2(test): 0.111
+inner CV: R2(test): 0.291, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.875, R2(test): 0.020
+inner CV: R2(test): 0.361, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.865, R2(test): 0.271
+inner CV: R2(test): 0.253, params: {'polynomialfeatures__degree': 3, 'ridge__alpha': 100}, outer CV R2(train): 0.988, R2(test): 0.303
+inner CV: R2(test): 0.363, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.881, R2(test): 0.459
+inner CV: R2(test): 0.313, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.877, R2(test): 0.614
+inner CV: R2(test): 0.266, params: {'polynomialfeatures__degree': 3, 'ridge__alpha': 100}, outer CV R2(train): 0.979, R2(test): 0.138
+inner CV: R2(test): 0.295, params: {'polynomialfeatures__degree': 3, 'ridge__alpha': 100}, outer CV R2(train): 0.986, R2(test): 0.320
+inner CV: R2(test): 0.259, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.841, R2(test): 0.409
+inner CV: R2(test): 0.219, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.867, R2(test): 0.480
+inner CV: R2(test): 0.284, params: {'polynomialfeatures__degree': 3, 'ridge__alpha': 100}, outer CV R2(train): 0.991, R2(test): 0.399
+inner CV: R2(test): 0.413, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.903, R2(test): 0.304
+inner CV: R2(test): 0.361, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.896, R2(test): 0.398
+inner CV: R2(test): 0.258, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.863, R2(test): 0.547
+inner CV: R2(test): 0.194, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.885, R2(test): 0.531
+inner CV: R2(test): 0.256, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.857, R2(test): 0.344
+inner CV: R2(test): 0.467, params: {'polynomialfeatures__degree': 2, 'ridge__alpha': 100}, outer CV R2(train): 0.894, R2(test): 0.358
+[PolyRidge] total result = R2(train): 0.890, R2(test): 0.387
+---------- RandomForest ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.538, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.870, R2(test): 0.650
+inner CV: R2(test): 0.569, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.942, R2(test): 0.510
+inner CV: R2(test): 0.498, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.934, R2(test): 0.559
+inner CV: R2(test): 0.472, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.758, R2(test): 0.688
+inner CV: R2(test): 0.602, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.954, R2(test): 0.506
+inner CV: R2(test): 0.557, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.909, R2(test): 0.572
+inner CV: R2(test): 0.480, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.936, R2(test): 0.639
+inner CV: R2(test): 0.548, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.897, R2(test): 0.540
+inner CV: R2(test): 0.559, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.831, R2(test): 0.439
+inner CV: R2(test): 0.505, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.950, R2(test): 0.554
+inner CV: R2(test): 0.483, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.896, R2(test): 0.617
+inner CV: R2(test): 0.573, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.944, R2(test): 0.544
+inner CV: R2(test): 0.617, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.895, R2(test): 0.541
+inner CV: R2(test): 0.472, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.862, R2(test): 0.548
+inner CV: R2(test): 0.571, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.883, R2(test): 0.530
+inner CV: R2(test): 0.444, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.868, R2(test): 0.569
+inner CV: R2(test): 0.518, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.895, R2(test): 0.589
+inner CV: R2(test): 0.580, params: {'randomforestregressor__max_depth': 15, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.912, R2(test): 0.515
+inner CV: R2(test): 0.480, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.887, R2(test): 0.539
+inner CV: R2(test): 0.488, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.784, R2(test): 0.615
+inner CV: R2(test): 0.596, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.832, R2(test): 0.454
+inner CV: R2(test): 0.512, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.938, R2(test): 0.637
+inner CV: R2(test): 0.501, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 2, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.896, R2(test): 0.703
+inner CV: R2(test): 0.564, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 50}, outer CV R2(train): 0.817, R2(test): 0.485
+inner CV: R2(test): 0.533, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.951, R2(test): 0.564
+inner CV: R2(test): 0.577, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.913, R2(test): 0.342
+inner CV: R2(test): 0.508, params: {'randomforestregressor__max_depth': 5, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.885, R2(test): 0.697
+inner CV: R2(test): 0.454, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 5, 'randomforestregressor__n_estimators': 100}, outer CV R2(train): 0.775, R2(test): 0.683
+inner CV: R2(test): 0.489, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.930, R2(test): 0.647
+inner CV: R2(test): 0.602, params: {'randomforestregressor__max_depth': 10, 'randomforestregressor__min_samples_leaf': 1, 'randomforestregressor__n_estimators': 75}, outer CV R2(train): 0.948, R2(test): 0.528
+[RandomForest] total result = R2(train): 0.890, R2(test): 0.567
+---------- SVR ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.494, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.889, R2(test): 0.686
+inner CV: R2(test): 0.539, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.888, R2(test): 0.581
+inner CV: R2(test): 0.586, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.906, R2(test): 0.520
+inner CV: R2(test): 0.534, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.891, R2(test): 0.609
+inner CV: R2(test): 0.605, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.896, R2(test): 0.589
+inner CV: R2(test): 0.527, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.911, R2(test): 0.495
+inner CV: R2(test): 0.493, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'scale', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.889, R2(test): 0.615
+inner CV: R2(test): 0.534, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.887, R2(test): 0.617
+inner CV: R2(test): 0.586, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.910, R2(test): 0.560
+inner CV: R2(test): 0.480, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.888, R2(test): 0.671
+inner CV: R2(test): 0.497, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.893, R2(test): 0.692
+inner CV: R2(test): 0.619, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.899, R2(test): 0.535
+inner CV: R2(test): 0.603, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.906, R2(test): 0.545
+inner CV: R2(test): 0.504, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.885, R2(test): 0.668
+inner CV: R2(test): 0.587, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.902, R2(test): 0.391
+inner CV: R2(test): 0.468, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.885, R2(test): 0.593
+inner CV: R2(test): 0.553, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.900, R2(test): 0.634
+inner CV: R2(test): 0.594, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.897, R2(test): 0.479
+inner CV: R2(test): 0.568, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.884, R2(test): 0.507
+inner CV: R2(test): 0.515, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.901, R2(test): 0.642
+inner CV: R2(test): 0.553, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.901, R2(test): 0.606
+inner CV: R2(test): 0.548, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.897, R2(test): 0.643
+inner CV: R2(test): 0.509, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.882, R2(test): 0.628
+inner CV: R2(test): 0.570, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.903, R2(test): 0.641
+inner CV: R2(test): 0.565, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.890, R2(test): 0.573
+inner CV: R2(test): 0.568, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.901, R2(test): 0.529
+inner CV: R2(test): 0.546, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.895, R2(test): 0.542
+inner CV: R2(test): 0.490, params: {'svr__C': 100, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.896, R2(test): 0.675
+inner CV: R2(test): 0.527, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.892, R2(test): 0.613
+inner CV: R2(test): 0.592, params: {'svr__C': 10, 'svr__epsilon': 0.5, 'svr__gamma': 'auto', 'svr__kernel': 'rbf'}, outer CV R2(train): 0.903, R2(test): 0.627
+[SVR] total result = R2(train): 0.896, R2(test): 0.590
+---------- XGBoost ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.571, params: {'xgbregressor__colsample_bytree': 0.8, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.855, R2(test): 0.665
+inner CV: R2(test): 0.573, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.890, R2(test): 0.558
+inner CV: R2(test): 0.511, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.782, R2(test): 0.629
+inner CV: R2(test): 0.483, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.744, R2(test): 0.696
+inner CV: R2(test): 0.620, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 200, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.931, R2(test): 0.557
+inner CV: R2(test): 0.590, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.1, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.874, R2(test): 0.526
+inner CV: R2(test): 0.487, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.830, R2(test): 0.688
+inner CV: R2(test): 0.562, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.891, R2(test): 0.505
+inner CV: R2(test): 0.581, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.877, R2(test): 0.528
+inner CV: R2(test): 0.505, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.788, R2(test): 0.561
+inner CV: R2(test): 0.512, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.866, R2(test): 0.636
+inner CV: R2(test): 0.603, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.883, R2(test): 0.523
+inner CV: R2(test): 0.644, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.883, R2(test): 0.574
+inner CV: R2(test): 0.513, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.1, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.850, R2(test): 0.549
+inner CV: R2(test): 0.584, params: {'xgbregressor__colsample_bytree': 0.8, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.871, R2(test): 0.461
+inner CV: R2(test): 0.483, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.779, R2(test): 0.555
+inner CV: R2(test): 0.532, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.858, R2(test): 0.620
+inner CV: R2(test): 0.595, params: {'xgbregressor__colsample_bytree': 0.8, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.882, R2(test): 0.530
+inner CV: R2(test): 0.534, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.865, R2(test): 0.579
+inner CV: R2(test): 0.502, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.863, R2(test): 0.606
+inner CV: R2(test): 0.582, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.803, R2(test): 0.499
+inner CV: R2(test): 0.520, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.863, R2(test): 0.667
+inner CV: R2(test): 0.538, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.851, R2(test): 0.689
+inner CV: R2(test): 0.554, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.873, R2(test): 0.603
+inner CV: R2(test): 0.579, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.1, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.934, R2(test): 0.582
+inner CV: R2(test): 0.583, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.8}, outer CV R2(train): 0.807, R2(test): 0.439
+inner CV: R2(test): 0.531, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.1, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.853, R2(test): 0.648
+inner CV: R2(test): 0.453, params: {'xgbregressor__colsample_bytree': 1.0, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 100, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.841, R2(test): 0.723
+inner CV: R2(test): 0.502, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.05, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.778, R2(test): 0.656
+inner CV: R2(test): 0.632, params: {'xgbregressor__colsample_bytree': 0.6, 'xgbregressor__learning_rate': 0.1, 'xgbregressor__max_depth': 2, 'xgbregressor__n_estimators': 50, 'xgbregressor__subsample': 0.6}, outer CV R2(train): 0.899, R2(test): 0.554
+[XGBoost] total result = R2(train): 0.852, R2(test): 0.587
+---------- LightGBM ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.568, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.895, R2(test): 0.664
+inner CV: R2(test): 0.560, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.815, R2(test): 0.581
+inner CV: R2(test): 0.544, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.815, R2(test): 0.612
+inner CV: R2(test): 0.497, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.778, R2(test): 0.788
+inner CV: R2(test): 0.617, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.958, R2(test): 0.539
+inner CV: R2(test): 0.573, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.837, R2(test): 0.608
+inner CV: R2(test): 0.474, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.872, R2(test): 0.717
+inner CV: R2(test): 0.517, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.838, R2(test): 0.611
+inner CV: R2(test): 0.606, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.851, R2(test): 0.464
+inner CV: R2(test): 0.501, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.822, R2(test): 0.563
+inner CV: R2(test): 0.529, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.901, R2(test): 0.606
+inner CV: R2(test): 0.607, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.893, R2(test): 0.519
+inner CV: R2(test): 0.643, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.963, R2(test): 0.458
+inner CV: R2(test): 0.536, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.879, R2(test): 0.624
+inner CV: R2(test): 0.597, params: {'lgbmregressor__colsample_bytree': 1.0, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.837, R2(test): 0.496
+inner CV: R2(test): 0.461, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.876, R2(test): 0.594
+inner CV: R2(test): 0.528, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.822, R2(test): 0.600
+inner CV: R2(test): 0.581, params: {'lgbmregressor__colsample_bytree': 1.0, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.843, R2(test): 0.508
+inner CV: R2(test): 0.508, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.942, R2(test): 0.528
+inner CV: R2(test): 0.520, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.813, R2(test): 0.614
+inner CV: R2(test): 0.619, params: {'lgbmregressor__colsample_bytree': 1.0, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.838, R2(test): 0.471
+inner CV: R2(test): 0.535, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.807, R2(test): 0.660
+inner CV: R2(test): 0.509, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.887, R2(test): 0.681
+inner CV: R2(test): 0.553, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.834, R2(test): 0.591
+inner CV: R2(test): 0.594, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.902, R2(test): 0.562
+inner CV: R2(test): 0.579, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.832, R2(test): 0.384
+inner CV: R2(test): 0.506, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.809, R2(test): 0.698
+inner CV: R2(test): 0.465, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.1, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 50, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.809, R2(test): 0.684
+inner CV: R2(test): 0.486, params: {'lgbmregressor__colsample_bytree': 0.6, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 100, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.811, R2(test): 0.663
+inner CV: R2(test): 0.635, params: {'lgbmregressor__colsample_bytree': 0.8, 'lgbmregressor__learning_rate': 0.05, 'lgbmregressor__max_depth': 3, 'lgbmregressor__n_estimators': 200, 'lgbmregressor__subsample': 0.6}, outer CV R2(train): 0.901, R2(test): 0.568
+[LightGBM] total result = R2(train): 0.856, R2(test): 0.589
+---------- HistGB ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.523, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.786, R2(test): 0.642
+inner CV: R2(test): 0.554, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.698, R2(test): 0.506
+inner CV: R2(test): 0.525, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.821, R2(test): 0.536
+inner CV: R2(test): 0.476, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.1, 'histgradientboostingregressor__max_depth': 7, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.626, R2(test): 0.631
+inner CV: R2(test): 0.595, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 7, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.816, R2(test): 0.567
+inner CV: R2(test): 0.584, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.766, R2(test): 0.540
+inner CV: R2(test): 0.464, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.1, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.688, R2(test): 0.680
+inner CV: R2(test): 0.510, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.767, R2(test): 0.521
+inner CV: R2(test): 0.592, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.820, R2(test): 0.477
+inner CV: R2(test): 0.466, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.780, R2(test): 0.593
+inner CV: R2(test): 0.530, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.910, R2(test): 0.618
+inner CV: R2(test): 0.582, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 7, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.809, R2(test): 0.567
+inner CV: R2(test): 0.612, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.789, R2(test): 0.507
+inner CV: R2(test): 0.517, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.746, R2(test): 0.549
+inner CV: R2(test): 0.584, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.777, R2(test): 0.341
+inner CV: R2(test): 0.411, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.733, R2(test): 0.550
+inner CV: R2(test): 0.539, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.730, R2(test): 0.558
+inner CV: R2(test): 0.567, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.889, R2(test): 0.451
+inner CV: R2(test): 0.469, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.738, R2(test): 0.534
+inner CV: R2(test): 0.515, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.806, R2(test): 0.594
+inner CV: R2(test): 0.606, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.1, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.785, R2(test): 0.511
+inner CV: R2(test): 0.524, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.746, R2(test): 0.632
+inner CV: R2(test): 0.481, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 7, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.848, R2(test): 0.688
+inner CV: R2(test): 0.539, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.753, R2(test): 0.531
+inner CV: R2(test): 0.576, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 5, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.835, R2(test): 0.563
+inner CV: R2(test): 0.555, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.829, R2(test): 0.395
+inner CV: R2(test): 0.499, params: {'histgradientboostingregressor__l2_regularization': 0.1, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 7, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.767, R2(test): 0.676
+inner CV: R2(test): 0.452, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.1, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.705, R2(test): 0.674
+inner CV: R2(test): 0.500, params: {'histgradientboostingregressor__l2_regularization': 1.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 1, 'histgradientboostingregressor__max_iter': 100}, outer CV R2(train): 0.615, R2(test): 0.608
+inner CV: R2(test): 0.614, params: {'histgradientboostingregressor__l2_regularization': 0.0, 'histgradientboostingregressor__learning_rate': 0.2, 'histgradientboostingregressor__max_depth': 3, 'histgradientboostingregressor__max_iter': 200}, outer CV R2(train): 0.870, R2(test): 0.540
+[HistGB] total result = R2(train): 0.775, R2(test): 0.559
+---------- KNN ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.307, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.524
+inner CV: R2(test): 0.320, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.346
+inner CV: R2(test): 0.377, params: {'kneighborsregressor__metric': 'euclidean', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.133
+inner CV: R2(test): 0.353, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.219
+inner CV: R2(test): 0.398, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.329
+inner CV: R2(test): 0.296, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 7, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.414
+inner CV: R2(test): 0.313, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.414
+inner CV: R2(test): 0.329, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'uniform'}, outer CV R2(train): 0.674, R2(test): 0.190
+inner CV: R2(test): 0.379, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.357
+inner CV: R2(test): 0.247, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 7, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.333
+inner CV: R2(test): 0.291, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 7, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.381
+inner CV: R2(test): 0.367, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.395
+inner CV: R2(test): 0.394, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.459
+inner CV: R2(test): 0.288, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.356
+inner CV: R2(test): 0.401, params: {'kneighborsregressor__metric': 'euclidean', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): -0.066
+inner CV: R2(test): 0.213, params: {'kneighborsregressor__metric': 'euclidean', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.350
+inner CV: R2(test): 0.338, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.381
+inner CV: R2(test): 0.442, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.453
+inner CV: R2(test): 0.366, params: {'kneighborsregressor__metric': 'euclidean', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.222
+inner CV: R2(test): 0.270, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.447
+inner CV: R2(test): 0.345, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.447
+inner CV: R2(test): 0.325, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.387
+inner CV: R2(test): 0.264, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.495
+inner CV: R2(test): 0.347, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.396
+inner CV: R2(test): 0.307, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.206
+inner CV: R2(test): 0.369, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.316
+inner CV: R2(test): 0.330, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.492
+inner CV: R2(test): 0.240, params: {'kneighborsregressor__metric': 'euclidean', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.433
+inner CV: R2(test): 0.301, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.490
+inner CV: R2(test): 0.349, params: {'kneighborsregressor__metric': 'manhattan', 'kneighborsregressor__n_neighbors': 3, 'kneighborsregressor__p': 1, 'kneighborsregressor__weights': 'distance'}, outer CV R2(train): 1.000, R2(test): 0.333
+[KNN] total result = R2(train): 0.989, R2(test): 0.354
+---------- MLP ----------
+params, R2(train), R2(test)
+inner CV: R2(test): 0.109, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.781, R2(test): 0.467
+inner CV: R2(test): 0.060, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.715, R2(test): 0.504
+inner CV: R2(test): 0.177, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.832, R2(test): 0.477
+inner CV: R2(test): 0.134, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.466, R2(test): 0.132
+inner CV: R2(test): 0.132, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.909, R2(test): 0.341
+inner CV: R2(test): 0.121, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.880, R2(test): 0.547
+inner CV: R2(test): 0.053, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.721, R2(test): 0.286
+inner CV: R2(test): 0.076, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.879, R2(test): 0.431
+inner CV: R2(test): 0.157, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.938, R2(test): -0.563
+inner CV: R2(test): -0.063, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.811, R2(test): 0.369
+inner CV: R2(test): 0.092, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.934, R2(test): 0.425
+inner CV: R2(test): 0.116, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.898, R2(test): 0.087
+inner CV: R2(test): 0.138, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.574, R2(test): -0.269
+inner CV: R2(test): -0.023, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.925, R2(test): 0.343
+inner CV: R2(test): 0.227, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (50, 20), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.801, R2(test): -0.112
+inner CV: R2(test): -0.105, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): -0.530, R2(test): -1.613
+inner CV: R2(test): 0.144, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.714, R2(test): 0.332
+inner CV: R2(test): 0.221, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.917, R2(test): 0.179
+inner CV: R2(test): 0.059, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.950, R2(test): 0.101
+inner CV: R2(test): 0.016, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (50, 20), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.524, R2(test): 0.408
+inner CV: R2(test): 0.115, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.706, R2(test): 0.169
+inner CV: R2(test): 0.091, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.922, R2(test): 0.360
+inner CV: R2(test): -0.055, params: {'mlpregressor__alpha': 0.001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.718, R2(test): 0.216
+inner CV: R2(test): 0.154, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.958, R2(test): 0.380
+inner CV: R2(test): 0.085, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.766, R2(test): 0.260
+inner CV: R2(test): 0.192, params: {'mlpregressor__alpha': 0.0001, 'mlpregressor__hidden_layer_sizes': (50,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.949, R2(test): -0.050
+inner CV: R2(test): 0.041, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (50, 20), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.971, R2(test): 0.327
+inner CV: R2(test): -0.126, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (50, 20), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.821, R2(test): 0.195
+inner CV: R2(test): 0.073, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.916, R2(test): 0.558
+inner CV: R2(test): 0.111, params: {'mlpregressor__alpha': 0.01, 'mlpregressor__hidden_layer_sizes': (100,), 'mlpregressor__learning_rate_init': 0.0001}, outer CV R2(train): 0.692, R2(test): 0.323
+[MLP] total result = R2(train): 0.769, R2(test): 0.187
