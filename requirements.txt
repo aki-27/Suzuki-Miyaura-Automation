@@ -1,0 +1,10 @@
+# Core dependencies for the autonomous optimization scripts and analysis utilities.
+# The original optimization workflow used NIMS-OS 1.0.1 and PHYSBO-backed Gaussian-process regression.
+
+numpy>=1.24,<2
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.2
+shap>=0.44
+physbo>=3.2.0
+nimsos==1.0.1

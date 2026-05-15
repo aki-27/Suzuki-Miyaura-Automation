@@ -80,6 +80,45 @@ These programs were compiled into a single executable file using PyInstaller wit
 Copy-Item -Path .\dist\$Args[0] -Destination .\$Args[0]
 ```
 
+
+## Reproducible SHAP and PFI analysis
+A standalone script for the Gaussian-process regression interpretability analysis has been added under `analysis_scripts/shap/`. The script reproduces the SHAP and permutation-feature-importance analyses used for the revised manuscript and avoids the cell-order dependence of the original notebook.
+
+```bash
+cd analysis_scripts/shap
+pip install -r requirements.txt
+python run_shap_analysis.py --backend physbo
+```
+
+The default SHAP figure settings are width 7.3 cm, height 6.0 cm, and font size 8 pt. Precomputed PHYSBO-backed results are included in `analysis_scripts/shap/shap_results/`. The script can also be tested without PHYSBO by using `--backend sklearn`, although those fallback results may not exactly match the manuscript-level analysis.
 # License
 This program is distributed under the MIT License.
 2024 Seiji Akiyama s.aki@icredd.hokudai.ac.jp main developer
+
+## Reviewer-requested retrospective analyses (v18)
+
+The `analysis_scripts/` directory contains four retrospective analyses that are referenced in the v18 Communications Chemistry revision:
+
+| Subdirectory | Purpose | Key file(s) |
+|---|---|---|
+| `4samples_average/` | Batch-averaged yield trend across the 48 batches of the autonomous campaign. Used to render Fig. S14 in the SI. | `192experiments_average.csv`, `optimization_average_for_4_samples.ipynb` |
+| `comparison_models/` | Nested cross-validation comparison of GPR and other regressors on Morgan, MACCS, RDKit, and Mordred descriptors. Used for the Reviewer 3 Comment 2 response. | `model_selection_nested_CV.ipynb`, four `*_model_screening.log` files |
+| `screening_aquisition_func/` | Post-hoc simulations comparing expected improvement (EI), probability of improvement (PI), Thompson sampling, and random sampling, at five different batch sizes. Used for the Reviewer 3 Comment 3 response. | `evaluation_optimization.ipynb`, `*_optimization.csv` files |
+| `variance/` | Per-sample predictive variance from PHYSBO, used to address Reviewer 3 Comment 3 (uncertainty inspection). | `Uncertaintly_0516.ipynb`, `candidates.csv` |
+| `shap/` | SHAP and PFI analysis of the GPR model. The standalone `run_shap_analysis.py` reproduces the SHAP and PFI figures used in the main text and SI. | `run_shap_analysis.py`, `shap_results/` |
+
+To reproduce the v18 figures:
+
+```bash
+# Fig. 4c (SHAP) and Fig. S13 (PFI)
+cd analysis_scripts/shap
+pip install -r requirements.txt
+python run_shap_analysis.py --backend physbo
+
+# Fig. S14 (batch-averaged yield)
+cd ../4samples_average
+jupyter nbconvert --to notebook --execute optimization_average_for_4_samples.ipynb
+# or use the matplotlib script bundled with the manuscript revision package.
+```
+
+Each subdirectory contains the input data needed to rerun the analysis without the rest of the pipeline. The notebooks are documented in their own README files where present.
