@@ -1,0 +1,6 @@
+autonomous campaign: N = 178 valid measurements (objective = ln(yield of 3); best yield = 0.489)
+first campaign: N = 68 valid results used as seed data
+
+expert descriptors (8 dims)          test R2 = 0.441 +/- 0.132  (folds: 0.40, 0.69, 0.46, 0.33, 0.34)
+one-hot encoding (35 dims)           test R2 = 0.576 +/- 0.159  (folds: 0.44, 0.81, 0.70, 0.40, 0.52)
+descriptors + first-campaign seed    test R2 = 0.583 +/- 0.108  (folds: 0.47, 0.76, 0.65, 0.55, 0.48)
