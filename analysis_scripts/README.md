@@ -1,3 +1,5 @@
+> Historical analysis retained for provenance. For the September 2026 revision, use the [current analysis instructions](../revision/analysis/README.md). Old figure/table references and dependency versions below belong to earlier analyses.
+
 # Analysis scripts
 
 This directory contains analysis notebooks and scripts that support the Suzuki-Miyaura autonomous optimization study.

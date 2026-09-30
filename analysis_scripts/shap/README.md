@@ -1,6 +1,8 @@
+> Historical analysis retained for provenance. For the September 2026 revision, use the [current analysis instructions](../../revision/analysis/README.md). Old figure/table references and dependency versions below belong to earlier analyses.
+
 # SHAP and PFI analysis
 
-This directory contains a standalone, order-independent script for reproducing the Gaussian-process regression interpretability analysis used for the revised manuscript.
+This directory contains a standalone, order-independent script for reproducing the Gaussian-process regression interpretability analysis used for an earlier manuscript version.
 
 ## Files
 
@@ -26,7 +28,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Reproduce the manuscript-level analysis
+## Reproduce the earlier analysis
 
 The manuscript-level output was generated with PHYSBO. From this directory, run:
 

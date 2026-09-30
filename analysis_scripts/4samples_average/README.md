@@ -1,3 +1,5 @@
+> Historical analysis retained for provenance. For the September 2026 revision, use the [current analysis instructions](../../revision/analysis/README.md). Old figure/table references and dependency versions below belong to earlier analyses.
+
 # 4samples_average
 
 Batch-averaged yield trend across the 48 batches of the autonomous Suzuki–Miyaura optimization campaign described in the manuscript.
