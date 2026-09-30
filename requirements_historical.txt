@@ -1,0 +1,7 @@
+# Confirmed 2024 main-campaign package versions, NOT a complete historical lockfile.
+# Use a separate environment from the retrospective revision analyses.
+# Other historical dependency/Python versions have not been reconstructed.
+nimsos==1.0.1
+physbo==2.0.0
+# The historical executable was built using PyInstaller 5.8.0 on Windows 10.
+# Installing these two packages alone does not recreate that executable.
