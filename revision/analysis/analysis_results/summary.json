@@ -1,0 +1,195 @@
+{
+  "descriptors": {
+    "n": 178,
+    "r2": 0.45944438216310934,
+    "rmse_log": 0.9137218729410671,
+    "mae_log": 0.6489732335254952,
+    "bias_log_observed_minus_predicted": -0.18620200571801962,
+    "mae_yield_pp": 6.372059864367431,
+    "coverage95": 0.9325842696629213,
+    "fold_r2_mean": 0.4413390003606013,
+    "fold_r2_sd": 0.13171699199928558,
+    "train_r2_mean": 0.8935930069542597
+  },
+  "onehot": {
+    "n": 178,
+    "r2": 0.5933280801366858,
+    "rmse_log": 0.7925303849669979,
+    "mae_log": 0.590501632271668,
+    "bias_log_observed_minus_predicted": -0.027480663223708703,
+    "mae_yield_pp": 6.288634785257317,
+    "coverage95": 0.9269662921348315,
+    "fold_r2_mean": 0.5757731467796711,
+    "fold_r2_sd": 0.15859277713560077,
+    "train_r2_mean": 0.9586363706521969
+  },
+  "historical_columns": {
+    "n": 178,
+    "r2": 0.5221256689427791,
+    "rmse_log": 0.8591137704373326,
+    "mae_log": 0.6346603482217599,
+    "bias_log_observed_minus_predicted": -0.09063445746223864,
+    "mae_yield_pp": 6.4719294337174365,
+    "coverage95": 0.9438202247191011,
+    "fold_r2_mean": 0.5082000667382797,
+    "fold_r2_sd": 0.10526605669570775,
+    "train_r2_mean": 0.8383501258198269
+  },
+  "seed_all": {
+    "n": 178,
+    "r2": 0.600665030923845,
+    "rmse_log": 0.7853486469491521,
+    "mae_log": 0.5687322762604005,
+    "bias_log_observed_minus_predicted": 0.0008841512698460148,
+    "mae_yield_pp": 5.840592771291942,
+    "coverage95": 0.9662921348314607,
+    "fold_r2_mean": 0.5825740802518675,
+    "fold_r2_sd": 0.10840086550400406,
+    "train_r2_mean": 0.938727279990269
+  },
+  "seed_disjoint": {
+    "n": 178,
+    "r2": 0.5872176432804536,
+    "rmse_log": 0.798462256637089,
+    "mae_log": 0.5776703770956317,
+    "bias_log_observed_minus_predicted": 0.015211963086558911,
+    "mae_yield_pp": 5.785929316828568,
+    "coverage95": 0.9719101123595506,
+    "fold_r2_mean": 0.5667630980941618,
+    "fold_r2_sd": 0.12029527776489363,
+    "train_r2_mean": 0.9390470194801713
+  },
+  "first_campaign_cv": {
+    "n": 68,
+    "r2": 0.5703411194653994,
+    "rmse_log": 1.4701858395200447,
+    "mae_log": 1.1081485301513199,
+    "bias_log_observed_minus_predicted": -0.11048182798861665,
+    "mae_yield_pp": 3.9757694727808026,
+    "train_r2_mean": 0.9565429270203151,
+    "fold_r2_mean": 0.538549599499764,
+    "fold_r2_sd": 0.09280861842014257
+  },
+  "paired": {
+    "n": 13,
+    "mean_difference_pp": -4.869969522795727,
+    "median_difference_pp": -5.068323111468392,
+    "bootstrap95_mean_pp": [
+      -9.24886099949065,
+      -0.16818853032233316
+    ],
+    "sd_difference_pp": 8.92172430730261
+  },
+  "transfer_all": {
+    "n": 68,
+    "r2": 0.2048687874915731,
+    "rmse_log": 1.9999988228056156,
+    "mae_log": 1.552411832433747,
+    "bias_log_observed_minus_predicted": -1.1321652171540337,
+    "mae_yield_pp": 4.900483801255301,
+    "coverage95": 0.6470588235294118
+  },
+  "transfer_shared": {
+    "n": 13,
+    "r2": 0.5062341784472202,
+    "rmse_log": 1.0785714300119507,
+    "mae_log": 0.9652123914279459,
+    "bias_log_observed_minus_predicted": 0.343249787400041,
+    "mae_yield_pp": 11.09544520433484,
+    "coverage95": 0.7692307692307693
+  },
+  "transfer_nonshared": {
+    "n": 55,
+    "r2": -0.06803171722507839,
+    "rmse_log": 2.161130039072267,
+    "mae_log": 1.6912044275805727,
+    "bias_log_observed_minus_predicted": -1.4808996727759056,
+    "mae_yield_pp": 3.4362201968910453,
+    "coverage95": 0.6181818181818182
+  },
+  "ligand_holdout_descriptors": {
+    "n": 178,
+    "r2": 0.22106632565490514,
+    "rmse_log": 1.096841990896564,
+    "mae_log": 0.8118458539391065,
+    "bias_log_observed_minus_predicted": -0.06686777556519598,
+    "mae_yield_pp": 8.127017832529857,
+    "coverage95": 0.9269662921348315
+  },
+  "ligand_holdout_onehot": {
+    "n": 178,
+    "r2": 0.06861203710534192,
+    "rmse_log": 1.199386452848773,
+    "mae_log": 1.047133149657466,
+    "bias_log_observed_minus_predicted": 0.3987368740863534,
+    "mae_yield_pp": 11.152119069892406,
+    "coverage95": 0.949438202247191
+  },
+  "forward_descriptors": {
+    "n": 174,
+    "r2": 0.31256058299095557,
+    "rmse_log": 1.0035923164692635,
+    "mae_log": 0.735112585080868,
+    "bias_log_observed_minus_predicted": -0.16794853692871706,
+    "mae_yield_pp": 8.224274855612872,
+    "coverage95": 0.9022988505747126
+  },
+  "forward_historical_columns": {
+    "n": 174,
+    "r2": 0.37927361878092014,
+    "rmse_log": 0.9536526374571972,
+    "mae_log": 0.7134952777236528,
+    "bias_log_observed_minus_predicted": -0.12742471888093834,
+    "mae_yield_pp": 8.116900132118513,
+    "coverage95": 0.8735632183908046
+  },
+  "shap_mean_abs": {
+    "cone angle": 0.12198153057722275,
+    "TEP": 0.2680674494612868,
+    "calc P shift": 0.09057554925522474,
+    "pKa": 0.10177608411795848,
+    "Pauling ionic radii": 0.07463789251602694,
+    "Hansen-dD": 0.16304054170898657,
+    "Hansen-dP": 0.17138790831423922,
+    "Hansen-dH": 0.47105186902855367
+  },
+  "scenarios": [
+    {
+      "scenario": "highest_predicted",
+      "expID": 556,
+      "ligand": 1,
+      "base": 8,
+      "solvent": 4,
+      "predicted_log": -1.0414447107584497,
+      "predictive_sd_log": 0.5637238725844242,
+      "predicted_median_yield_pct": 35.29444108629535,
+      "lower95_pct": 11.691086162280067,
+      "upper95_pct": 106.55105559080323,
+      "measured_yield_pct": 35.50009643577021
+    },
+    {
+      "scenario": "lowest_predicted",
+      "expID": 1107,
+      "ligand": 12,
+      "base": 4,
+      "solvent": 8,
+      "predicted_log": -6.081229015952767,
+      "predictive_sd_log": 0.9859618530679759,
+      "predicted_median_yield_pct": 0.2285366174728012,
+      "lower95_pct": 0.03308934135244491,
+      "upper95_pct": 1.5784232441982504,
+      "measured_yield_pct": null
+    }
+  ],
+  "landscape_best_yield_pct": {
+    "descriptor_GP": 35.29444108629535,
+    "onehot_GP": 46.60109325444936,
+    "onehot_RF": 33.13493632990198
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

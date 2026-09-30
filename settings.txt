@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 NumObjectives = 1
 NumProposals  = 4
+=======
+NumObjectives = 1
+NumProposals  = 4
+>>>>>>> 3d0d2dcbce1cf236e6e2e8f2527c7b914b89b02b

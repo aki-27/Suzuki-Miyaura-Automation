@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    7000,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007,
+    7008,
+    7009
+  ],
+  "budget": 192,
+  "batch_size_after_initial": 4,
+  "main_initial_n": 4,
+  "sensitivity_initial_n": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "sensitivity_landscape": "onehot_RF",
+  "surrogate": "sklearn GPR, kernel as CV, target normalized, refit after each batch, zero restarts, L-BFGS-B maxiter40 ftol1e-8",
+  "candidate_scaling": "all known candidate X, no objective values",
+  "joint_TS": "Matheron correction with 256 Fourier prior features, independent draw per batch proposal",
+  "observations": "deterministic fitted virtual log-yield, no added physical noise",
+  "targets": [
+    "40% yield",
+    "95% of virtual landscape maximum yield"
+  ],
+  "nonattainment_code": 193,
+  "interpretation": "conditional simulator benchmark, not a historical PHYSBO replay or experimental comparison"
+}

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 # Current retrospective revision analyses (Python 3.12.14).
 # Historical robot software uses a separate environment; see docs/EXPERIMENTAL_RECORD.md.
 -r revision/analysis/requirements_revision.txt
+=======
+# Current retrospective revision analyses (Python 3.12.14).
+# Historical robot software uses a separate environment; see docs/EXPERIMENTAL_RECORD.md.
+-r revision/analysis/requirements_revision.txt
+>>>>>>> 3d0d2dcbce1cf236e6e2e8f2527c7b914b89b02b

@@ -1,0 +1,30 @@
+{
+  "cv_folds": 5,
+  "split_seed": 0,
+  "gpr": "Constant(1,[1e-3,1e3])*RBF(1,[1e-2,1e3])+White(1e-3,[1e-8,10])",
+  "normalize_y": true,
+  "restarts_cv": 5,
+  "forward_restarts": 1,
+  "shap_background_per_fold": 16,
+  "shap_coalitions": 256,
+  "pfi_shuffles": 50,
+  "bootstrap_resamples": 10000,
+  "historical_nimsos": "1.0.1",
+  "historical_physbo": "2.0.0",
+  "online_input_columns": [
+    "expID",
+    "ligand",
+    "base",
+    "solvent",
+    "cone angle",
+    "TEP",
+    "calc P shift",
+    "pKa",
+    "Pauling ionic radii",
+    "Hansen-dD",
+    "Hansen-dP",
+    "Hansen-dH"
+  ],
+  "historical_physbo_evidence": "Author confirmation via co-author Tamura; 2024 main campaign only",
+  "historical_implementation": "Standard PHYSBO/NIMS-OS; no manual hyperparameter adjustment"
+}

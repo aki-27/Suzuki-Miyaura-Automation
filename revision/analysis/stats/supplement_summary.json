@@ -1,0 +1,47 @@
+{
+  "scope": "Descriptive supplement calculated from existing outputs; no new fits or simulated campaigns.",
+  "simulation": {
+    "runs": 210,
+    "budget": 192,
+    "success_interval": "Two-sided 95% Clopper-Pearson, conditional on fixed fitted surface and RNG policy.",
+    "random_exact_formula": "1 - product((N-K-j)/(N-j), j=0,...,191), N=1500, K=number of target candidates.",
+    "AUC_definition": "Arithmetic mean of the 192 best-so-far yield percentages (includes initial evaluations).",
+    "quantiles": "NumPy default linear interpolation; medians/IQRs describe between-seed variation, not emulator uncertainty.",
+    "n95_censoring": "Nonattainment is encoded as 193 solely for storage. A quantile of 193 must be presented as >192, not as an observed hitting time.",
+    "paired_contrasts": "Method A minus B at matched seed; no independent-fold/point inference."
+  },
+  "forward": {
+    "windows": "Noncumulative cycle ranges 2-8,9-16,...,41-48; cycle1 is initial training only, cycle27 has no valid responses.",
+    "baseline": "For every held-out cycle, predict mean log response of strictly earlier valid observations.",
+    "kernels": "Parameters parsed from rounded saved kernel strings; these cannot recover optimizer convergence status."
+  },
+  "prior_floor_count": 5,
+  "transfer": "Raw-scale errors use original analytical yield values including negative measurements; log-scale uses archived floor transformation. Fixed predictions are unchanged when floor points are excluded.",
+  "paired_campaign_statistics": {
+    "n": 13,
+    "mean_main_minus_prior_pp": -4.869969522795727,
+    "median_main_minus_prior_pp": -5.068323111468392,
+    "sample_sd_pp": 8.92172430730261,
+    "t95_low_pp": -10.261313563799103,
+    "t95_high_pp": 0.5213745182076472,
+    "main_greater": 3,
+    "equal": 0,
+    "main_lower": 10,
+    "interpretation": "Selected cross-campaign condition pairs; neither interval method establishes same-protocol repeatability."
+  },
+  "batch_statistics": {
+    "denominator_counts": {
+      "4": 37,
+      "3": 10,
+      "0": 1
+    },
+    "maximum_mean_batch": {
+      "cycle": 28,
+      "attempted": 4,
+      "valid": 3,
+      "invalid": 1,
+      "mean_valid_yield_pct": 35.92796666666667
+    },
+    "definition": "Mean over valid measurements in a scheduled four-attempt batch; invalid measurements are excluded, not set to zero."
+  }
+}

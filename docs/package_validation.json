@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "canonical_regeneration_identical_files": 4,
   "supplement_statistics_regeneration_identical_files": 10,
@@ -23,3 +24,30 @@
   "model_refitting_or_full_simulation_rerun_for_packaging": false,
   "publication_performed": false
 }
+=======
+{
+  "canonical_regeneration_identical_files": 4,
+  "supplement_statistics_regeneration_identical_files": 10,
+  "numerical_and_diagnostic_files_byte_identical": 35,
+  "numerical_validation": {
+    "python": "3.12.14",
+    "checks": "PASS",
+    "main_valid": 178,
+    "preliminary_valid": 68,
+    "shared_conditions": 13,
+    "distinct_valid_conditions": 233,
+    "shap_max_additivity_error": 1.7763568394002505e-15,
+    "forward_predictions_per_model": 174,
+    "simulation_runs": 210,
+    "budget_per_simulation": 192,
+    "sequential_training_verified": true,
+    "simulation_initial_pairing_verified": true,
+    "simulation_monotonicity_targets_and_summary_verified": true
+  },
+  "current_markdown_links": "PASS",
+  "python_syntax": "PASS",
+  "historical_controls_executed": false,
+  "model_refitting_or_full_simulation_rerun_for_packaging": false,
+  "publication_performed": false
+}
+>>>>>>> 3d0d2dcbce1cf236e6e2e8f2527c7b914b89b02b

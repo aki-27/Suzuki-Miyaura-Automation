@@ -1,0 +1,9 @@
+descriptor_column,feature_name,figure_label
+cone angle,Angle,Angle
+TEP,TEP,TEP
+calc P shift,NMR,NMR
+pKa,pKa,p$\mathit{K}_{a}$
+Pauling ionic radii,ion-R,ion-R
+Hansen-dD,delta_D,$\mathit{\delta}_{d}$
+Hansen-dP,delta_p,$\mathit{\delta}_{p}$
+Hansen-dH,delta_H,$\mathit{\delta}_{h}$

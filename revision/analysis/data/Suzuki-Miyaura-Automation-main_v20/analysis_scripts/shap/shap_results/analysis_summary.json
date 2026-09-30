@@ -1,0 +1,62 @@
+{
+  "input_csv": "2024_0712_0146_candidates.csv",
+  "output_dir": "shap_results",
+  "backend": "physbo",
+  "requested_backend": "auto",
+  "seed": 123456,
+  "folds": 5,
+  "n_complete_rows": 178,
+  "descriptor_columns": [
+    "cone angle",
+    "TEP",
+    "calc P shift",
+    "pKa",
+    "Pauling ionic radii",
+    "Hansen-dD",
+    "Hansen-dP",
+    "Hansen-dH"
+  ],
+  "feature_names": [
+    "Angle",
+    "TEP",
+    "NMR",
+    "pKa",
+    "ion-R",
+    "delta_D",
+    "delta_p",
+    "delta_H"
+  ],
+  "feature_labels": [
+    "Angle",
+    "TEP",
+    "NMR",
+    "p$\\mathit{K}_{a}$",
+    "ion-R",
+    "$\\mathit{\\delta}_{d}$",
+    "$\\mathit{\\delta}_{p}$",
+    "$\\mathit{\\delta}_{h}$"
+  ],
+  "objective_column": "objectives",
+  "shap_background": "test",
+  "shap_nsamples": "auto",
+  "pfi_runs": 1000,
+  "shap_figure": {
+    "width_cm": 7.3,
+    "height_cm": 6.0,
+    "font_size_pt": 8.0
+  },
+  "centering": {
+    "method": "physbo.misc.centering",
+    "note": "All complete rows were centered before fold splitting, as in the notebook."
+  },
+  "overall_metrics": {
+    "r2_train": 0.9830939156103791,
+    "r2_test": 0.4366711758891261,
+    "r2_train_reversed_notebook": 0.9818744348121071,
+    "r2_test_reversed_notebook": -0.13975601777841207,
+    "rmse_train": 0.1615903214745478,
+    "rmse_test": 0.9327705277880707,
+    "mae_train": 0.09366778955745718,
+    "mae_test": 0.6609114321393658
+  }
+}
